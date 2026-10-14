@@ -1,6 +1,6 @@
 # Support
 
-Use [GitHub Issues](https://github.com/abhikuriyal-pixel/pi-minions/issues) for reproducible bugs and feature requests.
+Use [GitHub Issues](https://github.com/abhikuriyal-pixel/PiKins/issues) for reproducible bugs and feature requests.
 
 For a bug, include PiKins version, Windows version/architecture, installer or ZIP, steps, expected behavior and actual behavior. Review logs/screenshots before attaching them; remove API keys, personal chats, document content and account identifiers. Model-provider failures may require contacting the provider.
 

@@ -4,7 +4,7 @@
 
 PiKins (formerly PiMinions) is a Windows desktop assistant with persistent conversations, a central Chief coordinator, approval-gated tools and an integrated DocFoo document-retrieval teammate.
 
-[Download releases](https://github.com/abhikuriyal-pixel/pi-minions/releases) · [Report a problem](https://github.com/abhikuriyal-pixel/pi-minions/issues) · [Support](SUPPORT.md)
+[Download releases](https://github.com/abhikuriyal-pixel/PiKins/releases) · [Report a problem](https://github.com/abhikuriyal-pixel/PiKins/issues) · [Support](SUPPORT.md)
 
 > **Code coming soon..**
 > This repository currently hosts public documentation and binary releases. Application implementation and development history are maintained privately; no source-publication date is committed.
@@ -21,7 +21,7 @@ PiKins (formerly PiMinions) is a Windows desktop assistant with persistent conve
 
 ## Install · Windows x64
 
-Choose a version from [Releases](https://github.com/abhikuriyal-pixel/pi-minions/releases):
+Choose a version from [Releases](https://github.com/abhikuriyal-pixel/PiKins/releases):
 
 | Asset | Use |
 | --- | --- |
@@ -54,6 +54,8 @@ Before updating, open the data folder from Settings, close PiKins, and copy that
 ## Release policy
 
 Use **Settings & providers → Settings → Check for Updates** to check published stable releases manually. Downloads are checksum-verified; installation/restart waits until active work is safe to interrupt. Source-checkout builds cannot install updates over themselves. The one-time version reset requires a manual download for pre-reset installations: the older updater does not install an equal or lower version.
+
+The GitHub repository is now named `PiKins`; old download links redirect. Published v0.1.0 binaries predate this repository rename and their updater rejects the new canonical asset URLs. Use manual downloads until a newer build includes the updated repository address; published binaries were not replaced for the rename.
 
 At the maintainer's request, the previous public app releases and version tags were removed and the series restarted at PiKins v0.1.0. Going forward, versioned downloads are checksummed and never silently replaced. GitHub's automatic **Source code** archives contain this repository's documentation, not the application implementation. Packaged Electron runtime code remains inspectable.
 
