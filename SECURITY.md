@@ -1,11 +1,7 @@
 # Security
 
-Do not disclose vulnerabilities, credentials, private documents or user profiles in public issues.
+Report vulnerabilities privately through [GitHub Security Advisories](https://github.com/abhikuriyal-pixel/PiKins/security/advisories/new).
 
-To report a suspected vulnerability privately, use **Security → Advisories → Report a vulnerability** on this repository:
+Include the PiKins version, operating system, steps to reproduce the issue, and its potential impact. Do not include credentials, private conversations, or personal files.
 
-https://github.com/abhikuriyal-pixel/PiKins/security/advisories/new
-
-Include the product version, operating system, minimal reproduction and potential impact. Remove private data and secrets. If the form is unavailable, open an issue requesting a private contact channel without revealing the vulnerability.
-
-Use the latest compatible stable release. These early-stage releases have no guaranteed support lifetime or response-time SLA. Checksums detect download corruption; they are not code-signing certificates. Windows artifacts are currently unsigned.
+Please do not disclose security vulnerabilities in public issues. If private reporting is unavailable, open an issue requesting a private contact channel without sharing vulnerability details.

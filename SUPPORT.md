@@ -1,11 +1,16 @@
 # Support
 
-Use [GitHub Issues](https://github.com/abhikuriyal-pixel/PiKins/issues) for reproducible bugs and feature requests.
+Report bugs and feature requests in [GitHub Issues](https://github.com/abhikuriyal-pixel/PiKins/issues).
 
-For a bug, include PiKins version, Windows version/architecture, installer or ZIP, steps, expected behavior and actual behavior. Review logs/screenshots before attaching them; remove API keys, personal chats, document content and account identifiers. Model-provider failures may require contacting the provider.
+For a bug report, include:
 
-Use the selected release's `SHA256SUMS.txt` to verify downloads. The public release series restarted at PiKins v0.1.0; earlier PiMinions downloads were removed. Pre-reset installations require a manual download because their updater only accepts higher versions. No macOS/Linux/ARM package is currently supported. Vulnerability reports belong in the private channel described in [SECURITY.md](SECURITY.md), not Issues.
+- PiKins and Windows versions.
+- Whether you used the installer or portable ZIP.
+- Steps to reproduce the issue.
+- Expected and actual behavior.
 
-## Download integrity
+Remove API keys, personal chats, document content, and account details from logs or screenshots before sharing them.
 
-If a checksum differs, do not run the download. Report the release version, asset filename and expected/actual SHA-256 values in an issue; do not attach credentials or private files. Releases are published after maintainer review, and versioned asset bytes are not silently replaced.
+For download problems, compare the file's SHA-256 with the release's `SHA256SUMS.txt`. If they differ, do not run the file; report the filename and checksum.
+
+Report security vulnerabilities privately using [SECURITY.md](SECURITY.md).
