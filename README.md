@@ -1,8 +1,8 @@
-# PiMinions
+# PiKins
 
 **Your AI teammates, together on your desktop.**
 
-PiMinions is a Windows desktop assistant with persistent conversations, a central Chief coordinator, approval-gated tools and an integrated DocFoo document-retrieval teammate.
+PiKins (formerly PiMinions) is a Windows desktop assistant with persistent conversations, a central Chief coordinator, approval-gated tools and an integrated DocFoo document-retrieval teammate.
 
 [Download releases](https://github.com/abhikuriyal-pixel/pi-minions/releases) · [Report a problem](https://github.com/abhikuriyal-pixel/pi-minions/issues) · [Support](SUPPORT.md)
 
@@ -14,7 +14,9 @@ PiMinions is a Windows desktop assistant with persistent conversations, a centra
 - Persistent named AI teammates, live replies and asynchronous Chief-coordinated task delegation.
 - Isolated bot browsing and explicit action approvals.
 - Document attachments, citations, figures and indexed DocFoo knowledge retrieval.
-- Optional owner-only Telegram access, direct DocFoo queries and Marimo notebooks.
+- One owner-only Telegram connection for every teammate: `/bot` switches bots, `/sync` refreshes recent history, and new conversations synchronize with the desktop. Select DocFoo to query it with ordinary text.
+- A minimal black launch screen with the geometric PiKins wordmark and a loading bar; reduced-motion preferences are respected. The familiar app icon stays unchanged.
+- Optional Marimo notebooks.
 - Dark/light themes, locally stored conversations/settings and verified application updates.
 
 ## Install · Windows x64
@@ -23,14 +25,14 @@ Choose a version from [Releases](https://github.com/abhikuriyal-pixel/pi-minions
 
 | Asset | Use |
 | --- | --- |
-| `PiMinions-<version>-win-x64-Setup.exe` | Standard NSIS installation |
-| `PiMinions-<version>-win-x64.zip` | Extract once, then run `PiMinions.exe` |
+| `PiKins-<version>-win-x64-Setup.exe` | Standard NSIS installation |
+| `PiKins-<version>-win-x64.zip` | Extract once, then run `PiKins.exe` |
 | `SHA256SUMS.txt` | SHA-256 values for both downloads |
 
 Verify your download in PowerShell and compare with that release's manifest:
 
 ```powershell
-Get-FileHash .\PiMinions-<version>-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PiKins-<version>-win-x64.zip -Algorithm SHA256
 ```
 
 Releases are **unsigned**; Windows may show SmartScreen warnings. Do not bypass a warning without checking the repository, artifact and checksum. macOS, Linux and Windows ARM builds are not offered.
@@ -41,18 +43,20 @@ Connect a supported model provider in **Settings & providers → Providers**. In
 
 Model requests and enabled integrations contact their providers. Provider credentials saved through the app use OS encryption; transcripts, library files and browser storage are not generally encrypted. Approved scripts/Python are not an OS sandbox. Review permissions and avoid sharing private content in issue reports.
 
-## Profile storage · v0.1.2 and later
+## Profile storage
 
 App metadata uses a local SQLite database with record-level writes in a dedicated worker. Existing `minions.json` profiles migrate automatically on first launch, preserving their original as `minions.pre-sqlite.json`. Conversations, attachments, skill documents and encrypted credentials remain in their existing storage; Koofr snapshots keep their portable JSON format.
 
-Before updating, open the data folder from Settings, close PiMinions, and copy that folder somewhere safe. Keep the recovery JSON until you are satisfied with the migration. **Do not downgrade a migrated profile to v0.1.1 or older**: those builds cannot read SQLite. The database is not encrypted; existing OS-encrypted credential handling is unchanged.
+The rename retains the original `PiMinions` profile folder and application/upgrade identity, so chats, settings and encrypted credentials stay available. The public app release series has been reset to PiKins v0.1.0; earlier PiMinions downloads were removed. Current builds use the PiKins filenames above.
+
+Before updating, open the data folder from Settings, close PiKins, and copy that folder somewhere safe. Keep the recovery JSON until you are satisfied with the migration. **Do not reopen a migrated profile with pre-reset, JSON-only PiMinions builds**: those old binaries cannot read SQLite. The new PiKins v0.1.0 is the current SQLite-capable build, not the historical v0.1.0 binary. The database is not encrypted; existing OS-encrypted credential handling is unchanged.
 
 ## Release policy
 
-Use **Settings & providers → Settings → Check for Updates** to check published stable releases manually. Downloads are checksum-verified; installation/restart waits until active work is safe to interrupt. Source-checkout builds cannot install updates over themselves.
+Use **Settings & providers → Settings → Check for Updates** to check published stable releases manually. Downloads are checksum-verified; installation/restart waits until active work is safe to interrupt. Source-checkout builds cannot install updates over themselves. The one-time version reset requires a manual download for pre-reset installations: the older updater does not install an equal or lower version.
 
-Versioned downloads are checksummed and never silently replaced. Migrated historical versions preserve their original bytes and release notes; they do not represent the newest development source. GitHub's automatic **Source code** archives contain this repository's documentation, not the application implementation. Packaged Electron runtime code remains inspectable.
+At the maintainer's request, the previous public app releases and version tags were removed and the series restarted at PiKins v0.1.0. Going forward, versioned downloads are checksummed and never silently replaced. GitHub's automatic **Source code** archives contain this repository's documentation, not the application implementation. Packaged Electron runtime code remains inspectable.
 
 ## License and security
 
-[MIT License](LICENSE), with third-party components under their respective licenses. New packaging/license files apply to future builds; historical assets are not rebuilt. See [SECURITY.md](SECURITY.md) for private vulnerability reporting.
+[MIT License](LICENSE), with third-party components under their respective licenses. The packaged app includes license notices for its bundled dependencies. See [SECURITY.md](SECURITY.md) for private vulnerability reporting.
