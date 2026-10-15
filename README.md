@@ -23,14 +23,14 @@ PiKins supports **Windows x64**.
 
 | Download | Use |
 | --- | --- |
-| `PiKins-0.1.0-win-x64-Setup.exe` | Install PiKins |
-| `PiKins-0.1.0-win-x64.zip` | Extract and run `PiKins.exe` |
+| `PiKins-0.1.0-win-x64-setup.exe` | Install PiKins |
+| `PiKins-0.1.0-win-x64-portable.zip` | Extract and run `PiKins.exe` |
 | `SHA256SUMS.txt` | Check download integrity |
 
 Download the files from [Releases](https://github.com/abhikuriyal-pixel/PiKins/releases). To check a download in PowerShell:
 
 ```powershell
-Get-FileHash .\PiKins-0.1.0-win-x64.zip -Algorithm SHA256
+Get-FileHash .\PiKins-0.1.0-win-x64-portable.zip -Algorithm SHA256
 ```
 
 Compare the result with `SHA256SUMS.txt`. The application is unsigned, so Windows may display a SmartScreen warning.
