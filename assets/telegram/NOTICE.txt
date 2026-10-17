@@ -1,0 +1,19 @@
+Telegram brand artwork
+
+The following assets were downloaded from Telegram's official website without
+altering their SVG contents:
+
+logo.svg
+Source: https://telegram.org/img/t_logo.svg
+SHA-256: 85059d5e5bf7bda91ebab30664993c49867a26be6b947834aca16c846581766a
+
+chat-pattern.svg
+Source: https://telegram.org/img/tgme/pattern.svg?1
+SHA-256: 118add53487c02aaf5b5ab9f69380fa06717deb10492e14aaa487e3c62806ad4
+
+These are Telegram's artwork and branding, not PiKins-owned MIT assets.
+They identify the optional Telegram integration and provide the wallpaper in an
+illustrative conversation. No sponsorship or endorsement is implied.
+
+The phone frame, example conversation, and HTML/CSS composition are site content.
+They are not screenshots of a live Telegram session.

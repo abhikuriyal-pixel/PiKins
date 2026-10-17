@@ -1,0 +1,15 @@
+Linux / Tux logo
+
+linux.svg is the original monochrome Linux penguin (Tux) asset from Simple Icons.
+Source: https://github.com/simple-icons/simple-icons/blob/develop/icons/linux.svg
+Verified Git blob: 381d3d8a8213499407e0bb08973e2a4869ebc8f6
+Brand source listed by Simple Icons: https://www.linuxfoundation.org/the-linux-mark/
+Simple Icons license: CC0 1.0 Universal; see LICENSE.simple-icons.txt.
+
+Tux was originally created by Larry Ewing. Linux is a registered trademark of
+Linus Torvalds. Brand and trademark rights remain with their respective owners.
+No endorsement is implied.
+
+The SVG geometry is unchanged. CSS masks render it in the page's existing
+Light/Dark text colors. The Linux download controls are disabled and labelled as
+coming soon; there is no Linux download URL or claimed available release.

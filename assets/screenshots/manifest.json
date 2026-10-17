@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 3,
+  "sourceManifest": "../../captures-review/manifest.json",
+  "models": {
+    "teammatesAndDocfoo": "openai-codex/gpt-6-luna",
+    "marimoBuildAndLivePairing": "openai-codex/gpt-6.1-sol"
+  },
+  "previewMethod": "Lossless WebP at original dimensions; no recoloring or retouching.",
+  "scenes": [
+    {
+      "name": "team",
+      "sourceScene": "01-chief-team-result"
+    },
+    {
+      "name": "documents",
+      "sourceScene": "03-attachments-skill-and-document-outputs"
+    },
+    {
+      "name": "apps",
+      "sourceScene": "17-connected-apps-catalogue"
+    },
+    {
+      "name": "app-access",
+      "sourceScene": "19-app-access-per-teammate"
+    },
+    {
+      "name": "app-result",
+      "sourceScene": "22-real-app-reading-list"
+    },
+    {
+      "name": "browser-before",
+      "sourceScene": "05-browser-comments-before"
+    },
+    {
+      "name": "browser-after",
+      "sourceScene": "06-browser-comments-after"
+    },
+    {
+      "name": "notebook",
+      "sourceScene": "10-marimo-interactive-simulation"
+    },
+    {
+      "name": "notebook-damped",
+      "sourceScene": "10b-marimo-higher-damping"
+    },
+    {
+      "name": "pairing",
+      "sourceScene": "25-marimo-live-pairing-result"
+    },
+    {
+      "name": "library",
+      "sourceScene": "08-docfoo-four-paper-library"
+    },
+    {
+      "name": "sources",
+      "sourceScene": "07-docfoo-cross-document"
+    },
+    {
+      "name": "study",
+      "sourceScene": "09-study-comments-cross-document-answer"
+    },
+    {
+      "name": "note",
+      "sourceScene": "11-personal-note-with-image"
+    },
+    {
+      "name": "evidence",
+      "sourceScene": "12-teammate-reuses-docfoo-evidence"
+    },
+    {
+      "name": "retrieval",
+      "sourceScene": "23-recorded-graph-retrieval"
+    },
+    {
+      "name": "boundary",
+      "sourceScene": "24-docfoo-evidence-boundary"
+    },
+    {
+      "name": "routines",
+      "sourceScene": "13-team-routines"
+    },
+    {
+      "name": "teammate",
+      "sourceScene": "14-teammate-role-memory-and-workspace"
+    },
+    {
+      "name": "skills",
+      "sourceScene": "18-shared-skills-library"
+    },
+    {
+      "name": "questions",
+      "sourceScene": "20-clarifying-questions"
+    },
+    {
+      "name": "models",
+      "sourceScene": "21-model-and-thinking-choice"
+    },
+    {
+      "name": "handoff",
+      "sourceScene": "02-team-delegation-and-approval"
+    },
+    {
+      "name": "document-approval",
+      "sourceScene": "04-document-execution-approval"
+    },
+    {
+      "name": "notebook-approval",
+      "sourceScene": "15-marimo-notebook-write-approval"
+    },
+    {
+      "name": "python-approval",
+      "sourceScene": "16-marimo-live-pairing-approval"
+    }
+  ],
+  "captures": [
+    {
+      "scene": "team",
+      "sourceScene": "01-chief-team-result",
+      "file": "team-light.png",
+      "sourceFile": "../../captures-review/01-chief-team-result-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-17T07:15:21.181Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "d332310c5db77dcf2c83124106bddd3dbff9f813d49028452b5bc8df83baa556",
+      "preview": "team-light.webp",
+      "previewSha256": "ecbad2d54eca03c97ee2d9ea882c97ec563573dbace46eec91f75129db5b4904"
+    },
+    {
+      "scene": "team",
+      "sourceScene": "01-chief-team-result",
+      "file": "team-dark.png",
+      "sourceFile": "../../captures-review/01-chief-team-result-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-17T07:15:23.743Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "4995707653b6d0134b89e28efbc516e56f5a9dec89c095f32cc53133260691cd",
+      "preview": "team-dark.webp",
+      "previewSha256": "e5ce29ad2f73b705b40140cf4ffeca47d9d8bcc435ebd2873555dfc9658b157b"
+    },
+    {
+      "scene": "documents",
+      "sourceScene": "03-attachments-skill-and-document-outputs",
+      "file": "documents-light.png",
+      "sourceFile": "../../captures-review/03-attachments-skill-and-document-outputs-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:29.420Z",
+      "width": 2160,
+      "height": 1200,
+      "sha256": "c1a6e36c332c559619306b5aef199e8504bf29ff17ba008bcd65a530e6f8504e",
+      "preview": "documents-light.webp",
+      "previewSha256": "a3c0009129a93d7ea50f0bef0bc313c7917f670520873c3265f78b6a0a5a51eb"
+    },
+    {
+      "scene": "documents",
+      "sourceScene": "03-attachments-skill-and-document-outputs",
+      "file": "documents-dark.png",
+      "sourceFile": "../../captures-review/03-attachments-skill-and-document-outputs-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:30.819Z",
+      "width": 2160,
+      "height": 1200,
+      "sha256": "85fea14860b5bcf7814689ea36fc3d2be730f488a64857c3b6ef8b3d29d234c5",
+      "preview": "documents-dark.webp",
+      "previewSha256": "f6951bb05744c56c430f2e23f9644981b82e461a64210059e8f4ac4d346ae913"
+    },
+    {
+      "scene": "apps",
+      "sourceScene": "17-connected-apps-catalogue",
+      "file": "apps-light.png",
+      "sourceFile": "../../captures-review/17-connected-apps-catalogue-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:51.522Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "7452cb7fdf7c6596b347840ea5af9792a5298f283c7b4de78c28f0dd20cf9a44",
+      "preview": "apps-light.webp",
+      "previewSha256": "5327704e50624930541d75e75a97fe2c78d3054df0665a4e60d0a491a999b97d"
+    },
+    {
+      "scene": "apps",
+      "sourceScene": "17-connected-apps-catalogue",
+      "file": "apps-dark.png",
+      "sourceFile": "../../captures-review/17-connected-apps-catalogue-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:53.070Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "0055725d6cc4ef0509c49a396351570a26ff3cb1d9265f3f45c9c230f1d17310",
+      "preview": "apps-dark.webp",
+      "previewSha256": "6a0b37ef0c51d7a44762afe026477cf9a12ff5b1b7d488e873e42ad303d093a4"
+    },
+    {
+      "scene": "app-access",
+      "sourceScene": "19-app-access-per-teammate",
+      "file": "app-access-light.png",
+      "sourceFile": "../../captures-review/19-app-access-per-teammate-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:19:40.648Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "f7244aeec28dbbbd86b097b8c6ae26618b68312320bbb7015fc8a2af45f0f748",
+      "preview": "app-access-light.webp",
+      "previewSha256": "a933b3f51cc895cdde5c1bbc65bb247ffc1c42ecd300fbeff71cc49227b2b30c"
+    },
+    {
+      "scene": "app-access",
+      "sourceScene": "19-app-access-per-teammate",
+      "file": "app-access-dark.png",
+      "sourceFile": "../../captures-review/19-app-access-per-teammate-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:19:42.128Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "e1dae7c05c47ff0dc905877b4a04eec38a1357962bfee803e180b56c1a61ae75",
+      "preview": "app-access-dark.webp",
+      "previewSha256": "64dbbc457cd54dc40be36a8c9a587e71ac321c386a8c32fd7dc497c9c2939e46"
+    },
+    {
+      "scene": "app-result",
+      "sourceScene": "22-real-app-reading-list",
+      "file": "app-result-light.png",
+      "sourceFile": "../../captures-review/22-real-app-reading-list-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:43.149Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "820729099a72d58a306da5369fb34263d9f2a0acdde5661e7aa9146cdf2eaf6f",
+      "preview": "app-result-light.webp",
+      "previewSha256": "cf8b7513b6a1af3cc6d58af1e6a007b3ed95869088f0ee321eb3cf832791a595"
+    },
+    {
+      "scene": "app-result",
+      "sourceScene": "22-real-app-reading-list",
+      "file": "app-result-dark.png",
+      "sourceFile": "../../captures-review/22-real-app-reading-list-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:44.625Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "710a7f24625c7f7b6c6c1a82e258eb34755ed2e1a12828c86cd542e6f1057c20",
+      "preview": "app-result-dark.webp",
+      "previewSha256": "eb0bf5467e206fa2558e611ec0ed9e858546d0e584c49e77930265dc2c4430e9"
+    },
+    {
+      "scene": "browser-before",
+      "sourceScene": "05-browser-comments-before",
+      "file": "browser-before-light.png",
+      "sourceFile": "../../captures-review/05-browser-comments-before-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:23:56.478Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "f7d4fb1e74941065c586fe82b3bef31768d57b378a4cd11f1afa34235af6d19c",
+      "preview": "browser-before-light.webp",
+      "previewSha256": "2a00328d2a9986ff472daed09d852616695f617737e27f9bcf26fb21e5fdb1a6"
+    },
+    {
+      "scene": "browser-before",
+      "sourceScene": "05-browser-comments-before",
+      "file": "browser-before-dark.png",
+      "sourceFile": "../../captures-review/05-browser-comments-before-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:23:57.947Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "b73d5aa3a031d47e1a0712e2691fecd6010db6fe6df2af663f52dcf2f0d3beba",
+      "preview": "browser-before-dark.webp",
+      "previewSha256": "59794f23ce379fcfa36a86da83670a0b0762c38e12a135b1176d061a726c3136"
+    },
+    {
+      "scene": "browser-after",
+      "sourceScene": "06-browser-comments-after",
+      "file": "browser-after-light.png",
+      "sourceFile": "../../captures-review/06-browser-comments-after-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:27:05.356Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "069dff0c2682dbda646c4287b0c92597d3365532b38154c23ea5f146626a9cea",
+      "preview": "browser-after-light.webp",
+      "previewSha256": "280167337184325c9adb89eef91b242f4e587eb6ed1c153f6717cc96ae937a49"
+    },
+    {
+      "scene": "browser-after",
+      "sourceScene": "06-browser-comments-after",
+      "file": "browser-after-dark.png",
+      "sourceFile": "../../captures-review/06-browser-comments-after-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:27:06.896Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "3f783b9b18466ac83ccf3b3b7a2934e62b105073f194a004e732b615411353e8",
+      "preview": "browser-after-dark.webp",
+      "previewSha256": "4783d5ce7b7ee3ffd6ed13745df0cad66706c9115043867035d513f9a7131167"
+    },
+    {
+      "scene": "notebook",
+      "sourceScene": "10-marimo-interactive-simulation",
+      "file": "notebook-light.png",
+      "sourceFile": "../../captures-review/10-marimo-interactive-simulation-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:39:29.660Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "489a6238b7504e46843d1e0f86579433cdca777c38dfaa8ffdef0b775653311f",
+      "preview": "notebook-light.webp",
+      "previewSha256": "848a2ab400d89922e11d2282cc00445506a11d848435f592f5ab4614c07fa29a"
+    },
+    {
+      "scene": "notebook",
+      "sourceScene": "10-marimo-interactive-simulation",
+      "file": "notebook-dark.png",
+      "sourceFile": "../../captures-review/10-marimo-interactive-simulation-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:39:31.892Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "f9ec9ef97a6afd96e849f3fff3ae522ba6a74c185eae014713702f1436af7436",
+      "preview": "notebook-dark.webp",
+      "previewSha256": "b6c342b9e0db5eeef5037d10fce5166e72a9dcac8359e4444c01a021179bee8b"
+    },
+    {
+      "scene": "notebook-damped",
+      "sourceScene": "10b-marimo-higher-damping",
+      "file": "notebook-damped-light.png",
+      "sourceFile": "../../captures-review/10b-marimo-higher-damping-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:39:37.406Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "69a5c8cccb494699e39611c575a5d45b7b150ef0e76f0a0f6a1108bff8d20292",
+      "preview": "notebook-damped-light.webp",
+      "previewSha256": "496c6da3515c8fca28c6d3d766e7e1c2d7156bddc6756b8739a20f4d5c194b67"
+    },
+    {
+      "scene": "notebook-damped",
+      "sourceScene": "10b-marimo-higher-damping",
+      "file": "notebook-damped-dark.png",
+      "sourceFile": "../../captures-review/10b-marimo-higher-damping-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:39:39.673Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "920a421b8284bb67ad0bbf98b30e575e1969cfcac59d4e57e1a0c34d504becc1",
+      "preview": "notebook-damped-dark.webp",
+      "previewSha256": "a0b463fb3989592b5f8f215dbf25a0dd01fbf33d617f52e2b6ee681f4d4d6ee0"
+    },
+    {
+      "scene": "pairing",
+      "sourceScene": "25-marimo-live-pairing-result",
+      "file": "pairing-light.png",
+      "sourceFile": "../../captures-review/25-marimo-live-pairing-result-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:39:41.457Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "0d04547e9e7932c661a20e30c613c6942197dc35357b2aef20bc77c53f3afcfb",
+      "preview": "pairing-light.webp",
+      "previewSha256": "089a16b55a9fed62a11af92f1ae4fc7f55080670c9288a0b440206c159605060"
+    },
+    {
+      "scene": "pairing",
+      "sourceScene": "25-marimo-live-pairing-result",
+      "file": "pairing-dark.png",
+      "sourceFile": "../../captures-review/25-marimo-live-pairing-result-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:39:43.185Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "9037d7c2cea51fc87e6c877b4832cc44548a5617cfc9c98900458539fa099813",
+      "preview": "pairing-dark.webp",
+      "previewSha256": "0de18805e2739532c69fc31e1b9e7b179c5b540b798cad2aaf715e95e8a41a2f"
+    },
+    {
+      "scene": "library",
+      "sourceScene": "08-docfoo-four-paper-library",
+      "file": "library-light.png",
+      "sourceFile": "../../captures-review/08-docfoo-four-paper-library-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:21:05.658Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "875c22358f7b436bd1b59dc9e0432f11af397c5409e7b268e04e634f3a71a193",
+      "preview": "library-light.webp",
+      "previewSha256": "996ae4f8e7270487a28a834dcf1f5d4bd40bd1d1827ca02a5d0dc50c3e3b2489"
+    },
+    {
+      "scene": "library",
+      "sourceScene": "08-docfoo-four-paper-library",
+      "file": "library-dark.png",
+      "sourceFile": "../../captures-review/08-docfoo-four-paper-library-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:21:07.131Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "5aa104ca6293d67b71a9e70d077f87d51a65e8e9dc2311eea08cdc6d67c3b319",
+      "preview": "library-dark.webp",
+      "previewSha256": "3bb05c1dc018d2a85d03343ad916c8d92a8115f0673643dd31e16288fa10ef0d"
+    },
+    {
+      "scene": "sources",
+      "sourceScene": "07-docfoo-cross-document",
+      "file": "sources-light.png",
+      "sourceFile": "../../captures-review/07-docfoo-cross-document-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:20:55.528Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "1fb10aa49b9d5b3f3603f95d2b2889495bfd5a89b8ce11d572a8689a03b1a03b",
+      "preview": "sources-light.webp",
+      "previewSha256": "fe6175289adc09f95fa1bc1551e0ac5274153b10edc28a187ae15209af53ee8c"
+    },
+    {
+      "scene": "sources",
+      "sourceScene": "07-docfoo-cross-document",
+      "file": "sources-dark.png",
+      "sourceFile": "../../captures-review/07-docfoo-cross-document-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:20:57.003Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "0042d0cc56a72335d23ac938cb9ff77175919f52e3fbef1a5c0b6d3a19b9ac47",
+      "preview": "sources-dark.webp",
+      "previewSha256": "8b26f768d1002b81ee92d139e15e86e3ee58ed32ecf9789b9af54e67dcceb8f7"
+    },
+    {
+      "scene": "study",
+      "sourceScene": "09-study-comments-cross-document-answer",
+      "file": "study-light.png",
+      "sourceFile": "../../captures-review/09-study-comments-cross-document-answer-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:37:51.744Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "15a1e684bc934a890bfd2bca457316854eac02d3325cc89c88c5e5072d35dfac",
+      "preview": "study-light.webp",
+      "previewSha256": "cbdf3d007d9ea0ccbb0e9ef3a8dbde3900009aeac9f640f2dcb8228decd5fa0f"
+    },
+    {
+      "scene": "study",
+      "sourceScene": "09-study-comments-cross-document-answer",
+      "file": "study-dark.png",
+      "sourceFile": "../../captures-review/09-study-comments-cross-document-answer-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:37:54.169Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "11386e8db32b194c405875884287463eadfc92eca4ebfd27676c6d86668c1950",
+      "preview": "study-dark.webp",
+      "previewSha256": "2e5a156a0cf36b6bf98891d3bfca7d8cda1de7a89a80f6954d60a9bc536340c5"
+    },
+    {
+      "scene": "note",
+      "sourceScene": "11-personal-note-with-image",
+      "file": "note-light.png",
+      "sourceFile": "../../captures-review/11-personal-note-with-image-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:37:56.618Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "e649935b9673730da4b82059d96228c0039ef337b48d4fea3c7d97c03c1a3c48",
+      "preview": "note-light.webp",
+      "previewSha256": "d93a6576ba1f29391dd609f3169b32bc98d4f68c774ac22e6ba39d4871ee538e"
+    },
+    {
+      "scene": "note",
+      "sourceScene": "11-personal-note-with-image",
+      "file": "note-dark.png",
+      "sourceFile": "../../captures-review/11-personal-note-with-image-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:37:59.008Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "4c6c7b756a7f04e6dc72d363188aeaeed8c1fc8f9610a696c3134c5a84d11af9",
+      "preview": "note-dark.webp",
+      "previewSha256": "69b1bd7266c02ce14f8d1586b379ac2fd17ee43712c091f292bda1e842ef98c4"
+    },
+    {
+      "scene": "evidence",
+      "sourceScene": "12-teammate-reuses-docfoo-evidence",
+      "file": "evidence-light.png",
+      "sourceFile": "../../captures-review/12-teammate-reuses-docfoo-evidence-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:32.669Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "9487ee2bad04ab781a6e9bddd82e0951d9fbce985a217c3adab2293cb3ae2265",
+      "preview": "evidence-light.webp",
+      "previewSha256": "7608991ed772f76a887aaa90a99e10f3956a4fb22326434a98c34601c4cc417f"
+    },
+    {
+      "scene": "evidence",
+      "sourceScene": "12-teammate-reuses-docfoo-evidence",
+      "file": "evidence-dark.png",
+      "sourceFile": "../../captures-review/12-teammate-reuses-docfoo-evidence-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:34.200Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "30633c74221f2540932c16af352d5bc3b5b6b37db912a0967b16559719268c44",
+      "preview": "evidence-dark.webp",
+      "previewSha256": "89556b8037c54f9f4f2048b3df26e18887bcf44307752c20696f206c8c27404e"
+    },
+    {
+      "scene": "retrieval",
+      "sourceScene": "23-recorded-graph-retrieval",
+      "file": "retrieval-light.png",
+      "sourceFile": "../../captures-review/23-recorded-graph-retrieval-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:55:53.616Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "a93074c11d7362cdb0e40ed85f2fa2ee4e5ce581885b94d871d1f6c8f0ab51b3",
+      "preview": "retrieval-light.webp",
+      "previewSha256": "d75ce3a9d0cb44defe2c14a820ec6abb6f1895cff88384d3535679028f2e7bee"
+    },
+    {
+      "scene": "retrieval",
+      "sourceScene": "23-recorded-graph-retrieval",
+      "file": "retrieval-dark.png",
+      "sourceFile": "../../captures-review/23-recorded-graph-retrieval-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:55:55.601Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "264225af610a2d4ebc21fb249de6dd06b3a323f5aaefdedc039ebea52865a46b",
+      "preview": "retrieval-dark.webp",
+      "previewSha256": "0f8bba987901c705e77f83755c4fd241fe33fdcb9d4666b2a9b2c09c93b7389c"
+    },
+    {
+      "scene": "boundary",
+      "sourceScene": "24-docfoo-evidence-boundary",
+      "file": "boundary-light.png",
+      "sourceFile": "../../captures-review/24-docfoo-evidence-boundary-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:21:02.180Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "b88a0bd832246f2277139707d8a6355af53925b2dfa27320bb7385030ffbb33b",
+      "preview": "boundary-light.webp",
+      "previewSha256": "a380f0b17416e18e48cd0a597b81ebdd03d26fdeace75681d1aeadba2a4978b2"
+    },
+    {
+      "scene": "boundary",
+      "sourceScene": "24-docfoo-evidence-boundary",
+      "file": "boundary-dark.png",
+      "sourceFile": "../../captures-review/24-docfoo-evidence-boundary-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:21:03.686Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "eb4fa9d536e3f0b1d566564bf2bcf76826ddb89a25120e9f20c98b5df655fd85",
+      "preview": "boundary-dark.webp",
+      "previewSha256": "9710cf691501c22baef607d3144ba162d52a6e9697e40c00afe2d7016a8ea654"
+    },
+    {
+      "scene": "routines",
+      "sourceScene": "13-team-routines",
+      "file": "routines-light.png",
+      "sourceFile": "../../captures-review/13-team-routines-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:46.434Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "9a7ffb27574cdf18580e2f5420ab4f1abc341b5a51682f9b55ebd2b0b18fc42c",
+      "preview": "routines-light.webp",
+      "previewSha256": "39d21fdfb78862dbb032fe0f221bfc73ec5f741de8d0e500ad1953ad80dfec9c"
+    },
+    {
+      "scene": "routines",
+      "sourceScene": "13-team-routines",
+      "file": "routines-dark.png",
+      "sourceFile": "../../captures-review/13-team-routines-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:47.971Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "285930e7fbd58f9cfefda108983b3c6bd05ae61d015c695eb47d7fa697036239",
+      "preview": "routines-dark.webp",
+      "previewSha256": "700487c57a26acf415d18404525b14c269364f2271afe57c66814053b4c99b2d"
+    },
+    {
+      "scene": "teammate",
+      "sourceScene": "14-teammate-role-memory-and-workspace",
+      "file": "teammate-light.png",
+      "sourceFile": "../../captures-review/14-teammate-role-memory-and-workspace-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:36.050Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "df3608ef8a4309d0417bb65c73488d17f8a459805f3b27d0009e50818343a268",
+      "preview": "teammate-light.webp",
+      "previewSha256": "6e6c4a6115da2ecc995f4c4ea3d0c8392d8376e8c94180f92515722b14dd0cf0"
+    },
+    {
+      "scene": "teammate",
+      "sourceScene": "14-teammate-role-memory-and-workspace",
+      "file": "teammate-dark.png",
+      "sourceFile": "../../captures-review/14-teammate-role-memory-and-workspace-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:37.523Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "ee4b429d32035b219de941f1469daae86508965a5fbfe7a442331e16d9784c9f",
+      "preview": "teammate-dark.webp",
+      "previewSha256": "bd48b089a87ee3976dc4946fb203c0634dc9b8a66db57fd24d7f1b1df217bfa0"
+    },
+    {
+      "scene": "skills",
+      "sourceScene": "18-shared-skills-library",
+      "file": "skills-light.png",
+      "sourceFile": "../../captures-review/18-shared-skills-library-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:54.774Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "0a1d419b3e0f1a75e62f3710da7b4ce4fef612ec6de6ecd2c62727301403b99d",
+      "preview": "skills-light.webp",
+      "previewSha256": "0230dc86f6d1567cab88ae4d01cdfb5fe093602dff16314a93742f69334106b1"
+    },
+    {
+      "scene": "skills",
+      "sourceScene": "18-shared-skills-library",
+      "file": "skills-dark.png",
+      "sourceFile": "../../captures-review/18-shared-skills-library-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:56.243Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "b3a4778ddc7d9d5b784613589d9b7e7b8491daffa6f5a3f44b31eb79f16f5c09",
+      "preview": "skills-dark.webp",
+      "previewSha256": "d17aa3d5daa331802d06f6257a55e57dc82b9b5b0a42c34b5d99de8eefaaf5c6"
+    },
+    {
+      "scene": "questions",
+      "sourceScene": "20-clarifying-questions",
+      "file": "questions-light.png",
+      "sourceFile": "../../captures-review/20-clarifying-questions-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:25:58.401Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "6c1a2f0d1441d940b122649806a26ac0ba6d27f83cc582374da669de9e09ee7b",
+      "preview": "questions-light.webp",
+      "previewSha256": "141bd48693e4ef0c42b1a8d20d1a4922d3c0eec1760052004c6b7692e12a0049"
+    },
+    {
+      "scene": "questions",
+      "sourceScene": "20-clarifying-questions",
+      "file": "questions-dark.png",
+      "sourceFile": "../../captures-review/20-clarifying-questions-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:25:59.990Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "f97e717012b2b19442c08e5201c554df307b6c760b50d0f5744855f27b3e9e29",
+      "preview": "questions-dark.webp",
+      "previewSha256": "0c8c606f09e85fb315929c10ec9f5fe9f804c87257aecbf67015523bd1d7068c"
+    },
+    {
+      "scene": "models",
+      "sourceScene": "21-model-and-thinking-choice",
+      "file": "models-light.png",
+      "sourceFile": "../../captures-review/21-model-and-thinking-choice-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:18:39.597Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "c3d917ff12bbe1da9536e0330a5900921cf124ca435f2f3c511ddc7bc136ea5f",
+      "preview": "models-light.webp",
+      "previewSha256": "e2e0c939338e4130c5af5ef6f9f3799b0dbfd755fe78282330b30e966889aad2"
+    },
+    {
+      "scene": "models",
+      "sourceScene": "21-model-and-thinking-choice",
+      "file": "models-dark.png",
+      "sourceFile": "../../captures-review/21-model-and-thinking-choice-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:18:41.093Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "1ee15ef84b365fd7c596cf29deddc34865542d88c8444f003b52fa26273dc70e",
+      "preview": "models-dark.webp",
+      "previewSha256": "c2a297ce07bed4fd5baa6a57313d514d19bcaa314518dd6d0b924cd03fbdec58"
+    },
+    {
+      "scene": "handoff",
+      "sourceScene": "02-team-delegation-and-approval",
+      "file": "handoff-light.png",
+      "sourceFile": "../../captures-review/02-team-delegation-and-approval-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:22:35.507Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "5d80810f11517790bd9616f145b668ebfa7a7b8f11a5142d9b08fbf7c525af8f",
+      "preview": "handoff-light.webp",
+      "previewSha256": "cf0b764724aa0c3d3a0afc940c06b964d69768d393d91a52f0bd73478fd150b2"
+    },
+    {
+      "scene": "handoff",
+      "sourceScene": "02-team-delegation-and-approval",
+      "file": "handoff-dark.png",
+      "sourceFile": "../../captures-review/02-team-delegation-and-approval-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:22:37.040Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "4233a12692085dcce56ff46de684c02d0bb2d971bacadcd827b0e56c523542b5",
+      "preview": "handoff-dark.webp",
+      "previewSha256": "b3c2e0ecd00b3ea6af8cc906a22366c540ac65d0e1012206662818179bef452b"
+    },
+    {
+      "scene": "document-approval",
+      "sourceScene": "04-document-execution-approval",
+      "file": "document-approval-light.png",
+      "sourceFile": "../../captures-review/04-document-execution-approval-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:25:55.095Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "af43b7ed805e8e2ec4c0297513a89cddce0155a54da004c4e1f9502be9ff1742",
+      "preview": "document-approval-light.webp",
+      "previewSha256": "a0fbbccb0807c388c3f9c96ca5c6eb9e79e763d2dd056768907cd31cb6cd5b53"
+    },
+    {
+      "scene": "document-approval",
+      "sourceScene": "04-document-execution-approval",
+      "file": "document-approval-dark.png",
+      "sourceFile": "../../captures-review/04-document-execution-approval-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:25:56.580Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "5eee7d0c1f622de25fe8e361761a84fb2e70d7d24865cd26ca107bb2cecb90ba",
+      "preview": "document-approval-dark.webp",
+      "previewSha256": "5a530aea219ab26de2980c79ee1fb9154a5945168cc6a71ed8ef5252b8963f6d"
+    },
+    {
+      "scene": "notebook-approval",
+      "sourceScene": "15-marimo-notebook-write-approval",
+      "file": "notebook-approval-light.png",
+      "sourceFile": "../../captures-review/15-marimo-notebook-write-approval-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:22:32.138Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "e769cbf279b2ac46ff2ec5eda2d9beb8093a71a010a60cb6339b62ad8f75e067",
+      "preview": "notebook-approval-light.webp",
+      "previewSha256": "4d55d62a24d341aa0e2addb6249caa6eba58e4ebd97e185225d5c991e45e3d8c"
+    },
+    {
+      "scene": "notebook-approval",
+      "sourceScene": "15-marimo-notebook-write-approval",
+      "file": "notebook-approval-dark.png",
+      "sourceFile": "../../captures-review/15-marimo-notebook-write-approval-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:22:33.601Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "8c992b7f246daabd07a1dcd6a15f0ee5aed4187fe6fd7f69a6120d67a63d97c5",
+      "preview": "notebook-approval-dark.webp",
+      "previewSha256": "431d9e76eed03072712db16dea8b5f7791bf938308b8c42dc316583534ed4d7d"
+    },
+    {
+      "scene": "python-approval",
+      "sourceScene": "16-marimo-live-pairing-approval",
+      "file": "python-approval-light.png",
+      "sourceFile": "../../captures-review/16-marimo-live-pairing-approval-light.png",
+      "theme": "light",
+      "capturedAt": "2026-10-16T10:36:18.060Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "efc5da2dec63b19be14397932c5c1f1311dcb146843651263b8ab2e8c3b69603",
+      "preview": "python-approval-light.webp",
+      "previewSha256": "8e5e30988729720526573a3e607fa84f50f55bd9c8717975b8d32ddaa6cca377"
+    },
+    {
+      "scene": "python-approval",
+      "sourceScene": "16-marimo-live-pairing-approval",
+      "file": "python-approval-dark.png",
+      "sourceFile": "../../captures-review/16-marimo-live-pairing-approval-dark.png",
+      "theme": "dark",
+      "capturedAt": "2026-10-16T10:36:19.946Z",
+      "width": 2160,
+      "height": 1500,
+      "sha256": "c477803e6931e2eb162cac06f952f8302d82263a5c40190b92155bf18349097b",
+      "preview": "python-approval-dark.webp",
+      "previewSha256": "ad1ecc42c97a51e6fd492dcd54870653ec05f80142e5aa8028aa6d967c3d2a70"
+    }
+  ]
+}

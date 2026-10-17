@@ -1,0 +1,21 @@
+/* Generated from src/renderer/styles/style.css; native gestures are unchanged. */
+@media (prefers-reduced-motion: no-preference) {
+.js .pixel-mascot svg{shape-rendering:crispEdges;image-rendering:pixelated}.js .mascot-character{transform-box:fill-box;transform-origin:50% 100%}
+.js .mascot-eye{transform-box:fill-box;transform-origin:center bottom;animation:blink 13s steps(1,end) var(--mascot-delay,0s) infinite}.js .eye-1{animation-delay:calc(var(--mascot-delay,0s) + .07s)}
+/* Whole-pixel gestures keep the silhouettes crisp rather than rotating/blurring them. */
+.js .motion-bob .mascot-character{animation:pixel-bob var(--mascot-period,7s) steps(1,end) var(--mascot-delay,0s) infinite}
+.js .motion-hop .mascot-character{animation:pixel-hop var(--mascot-period,7s) steps(1,end) var(--mascot-delay,0s) infinite}
+.js .motion-peek .mascot-character{animation:pixel-peek var(--mascot-period,7s) steps(1,end) var(--mascot-delay,0s) infinite}
+.js .mascot-ears{animation:pixel-twitch calc(var(--mascot-period,7s) + 3s) steps(1,end) var(--mascot-delay,0s) infinite}.js .mascot-tail{animation:pixel-tail calc(var(--mascot-period,7s) + 1s) steps(1,end) var(--mascot-delay,0s) infinite}.js .mascot-wings{animation:pixel-twitch calc(var(--mascot-period,7s) + 2s) steps(1,end) var(--mascot-delay,0s) infinite}
+.js .mascot-shadow{animation:pixel-shadow var(--mascot-period,7s) steps(1,end) var(--mascot-delay,0s) infinite}
+.js .docfoo-avatar .mascot-screen-logo{animation:docfoo-display 8s ease-in-out var(--mascot-delay,0s) infinite}@keyframes docfoo-display{0%,35%,65%,100%{opacity:1}50%{opacity:.86}}
+@keyframes blink{0%,47%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.25)}}
+@keyframes pixel-bob{0%,22%,42%,76%,100%{transform:translateY(0)}24%,40%,78%,90%{transform:translateY(-1px)}}
+@keyframes pixel-hop{0%,64%,84%,100%{transform:translateY(0)}68%,80%{transform:translateY(-1px)}72%,76%{transform:translateY(-2px)}}
+@keyframes pixel-peek{0%,62%,90%,100%{transform:translate(0,0)}66%,74%{transform:translate(1px,-1px)}78%,86%{transform:translate(-1px,0)}}
+@keyframes pixel-twitch{0%,60%,74%,100%{transform:translateY(0)}62%,70%{transform:translateY(-1px)}}
+@keyframes pixel-tail{0%,26%,46%,72%,100%{transform:translate(0,0)}28%,40%{transform:translate(-1px,-1px)}76%,86%{transform:translate(0,-1px)}}
+@keyframes pixel-shadow{0%,64%,84%,100%{opacity:.24}68%,80%{opacity:.16}72%,76%{opacity:.12}}
+.js [data-bot-avatar] :is(.mascot-character, .mascot-eye, .mascot-ears, .mascot-tail, .mascot-wings, .mascot-shadow, .mascot-screen-logo) { animation-play-state: paused; }
+.js[data-motion='running'] [data-bot-avatar][data-avatar-visible] :is(.mascot-character, .mascot-eye, .mascot-ears, .mascot-tail, .mascot-wings, .mascot-shadow, .mascot-screen-logo) { animation-play-state: running; }
+}
