@@ -269,19 +269,28 @@
   // CSS runs the decorative motion; observers only handle visibility and one-time fades.
   const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
   const heroTitle = document.getElementById('hero-title');
+  let headlineStarted = false;
   function settleHeadline() { heroTitle.dataset.headlineState = 'settled'; }
   function syncMotion() {
     const paused = motionPreference.matches || document.hidden;
     root.dataset.motion = paused ? 'paused' : 'running';
-    // OS/background changes must never leave text halfway through an entrance fade.
+    // A reduced-motion visit skips the entrance permanently. A background load
+    // waits until first visibility, rather than spending its only entrance unseen.
+    if (motionPreference.matches) headlineStarted = true;
     if (paused) {
       document.querySelectorAll('.motion-enter').forEach(element => element.classList.remove('motion-enter'));
       settleHeadline();
+    } else if (!headlineStarted) {
+      headlineStarted = true;
+      heroTitle.dataset.headlineState = 'entering';
+      document.querySelector('.hero-summary').classList.add('motion-enter');
     }
   }
   motionPreference.addEventListener('change', syncMotion);
   document.addEventListener('visibilitychange', syncMotion);
-  matchMedia('print').addEventListener('change', event => { if (event.matches) settleHeadline(); });
+  matchMedia('print').addEventListener('change', event => {
+    if (event.matches) { headlineStarted = true; settleHeadline(); }
+  });
   document.addEventListener('animationend', event => {
     if (event.animationName === 'soft-appear' || event.animationName === 'hero-arrive') {
       event.target.classList.remove('motion-enter');
@@ -289,13 +298,8 @@
       settleHeadline();
     }
   });
-  syncMotion();
   root.classList.add('js');
-  if (root.dataset.motion === 'running') {
-    // A single entrance per page load; scrolling, theme changes and resizing do not replay it.
-    heroTitle.dataset.headlineState = 'entering';
-    document.querySelector('.hero-summary').classList.add('motion-enter');
-  }
+  syncMotion();
   if ('IntersectionObserver' in window) {
     const avatarObserver = new IntersectionObserver(entries => {
       for (const entry of entries) entry.target.toggleAttribute('data-avatar-visible', entry.isIntersecting);
