@@ -113,13 +113,35 @@
   document.querySelectorAll('[data-gallery]').forEach(gallery => {
     const tabs = [...gallery.querySelectorAll('[role="tab"]')];
     const panels = tabs.map(tab => document.getElementById(tab.getAttribute('aria-controls')));
+    const description = document.getElementById(gallery.dataset.descriptionTarget);
+    const defaultDescription = description?.textContent;
+    const copyTarget = document.getElementById(gallery.dataset.copyTarget);
+    const copies = copyTarget ? panels.map(panel => panel.querySelector('[data-gallery-copy]')) : [];
+    let selected = 0;
+    function placeCopies(printing = false) {
+      copies.forEach((copy, i) => {
+        if (printing) panels[i].prepend(copy);
+        else copyTarget.append(copy);
+        copy.hidden = !printing && i !== selected;
+      });
+    }
     function activate(index, focus = false) {
+      selected = index;
       tabs.forEach((tab, i) => {
         tab.setAttribute('aria-selected', String(i === index));
         tab.tabIndex = i === index ? 0 : -1;
         panels[i].hidden = i !== index;
       });
+      if (description) {
+        const text = panels[index].dataset.description || defaultDescription;
+        if (description.textContent !== text) description.textContent = text;
+      }
+      copies.forEach((copy, i) => { copy.hidden = i !== index; });
       if (focus) tabs[index].focus({ preventScroll: true });
+    }
+    if (copyTarget) {
+      placeCopies();
+      matchMedia('print').addEventListener('change', event => placeCopies(event.matches));
     }
     gallery.querySelector('[role="tablist"]').hidden = false;
     tabs.forEach((tab, index) => {
@@ -141,10 +163,8 @@
   const featureTabs = [...featureNav.querySelectorAll('a')];
   const featurePanels = featureTabs.map(tab => document.getElementById(tab.hash.slice(1)));
   const featureContent = featureExplorer.querySelector('.feature-content');
-  const featureSelect = document.getElementById('feature-select');
   featureNav.setAttribute('role', 'tablist');
-  featureNav.setAttribute('aria-orientation', 'vertical');
-  featureExplorer.querySelector('.feature-picker').hidden = false;
+  featureNav.setAttribute('aria-orientation', 'horizontal');
   featureTabs.forEach((tab, index) => {
     tab.setAttribute('role', 'tab');
     tab.setAttribute('aria-controls', featurePanels[index].id);
@@ -161,7 +181,6 @@
       tab.tabIndex = i === index ? 0 : -1;
       featurePanels[i].hidden = i !== index;
     });
-    featureSelect.value = featurePanels[index].id;
     if (changed && root.dataset.motion === 'running') {
       featurePanels[index].querySelector('.chapter-copy').classList.add('motion-enter');
     }
@@ -179,8 +198,8 @@
     });
     tab.addEventListener('keydown', event => {
       let next;
-      if (event.key === 'ArrowDown') next = (index + 1) % featureTabs.length;
-      if (event.key === 'ArrowUp') next = (index + featureTabs.length - 1) % featureTabs.length;
+      if (event.key === 'ArrowRight') next = (index + 1) % featureTabs.length;
+      if (event.key === 'ArrowLeft') next = (index + featureTabs.length - 1) % featureTabs.length;
       if (event.key === 'Home') next = 0;
       if (event.key === 'End') next = featureTabs.length - 1;
       if (next !== undefined) {
@@ -188,15 +207,6 @@
         activateFeature(next, { focus: true, remember: true });
       }
     });
-  });
-  featureSelect.addEventListener('change', () => {
-    activateFeature(featurePanels.findIndex(panel => panel.id === featureSelect.value), { remember: true });
-  });
-  matchMedia('(max-width: 720px)').addEventListener('change', event => {
-    if (event.matches && featureNav.contains(document.activeElement)) featureSelect.focus({ preventScroll: true });
-    else if (!event.matches && document.activeElement === featureSelect) {
-      featureTabs[featurePanels.findIndex(panel => panel.id === featureSelect.value)].focus({ preventScroll: true });
-    }
   });
   function revealFeatureHash(scrollToTarget = false) {
     let id;
@@ -219,6 +229,17 @@
   revealFeatureHash(Boolean(location.hash));
   window.addEventListener('hashchange', () => revealFeatureHash());
   window.addEventListener('popstate', () => revealFeatureHash());
+  document.querySelectorAll('[data-feature-link]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const index = featurePanels.findIndex(panel => `#${panel.id}` === link.hash);
+      if (index < 0) return;
+      event.preventDefault();
+      activateFeature(index, { remember: true });
+      featurePanels[index].focus({ preventScroll: true });
+      featureContent.scrollIntoView({ block: 'start', behavior: 'instant' });
+    });
+  });
 
   const comparison = document.querySelector('[data-comparison]');
   const comparisonStage = comparison.querySelector('.compare-stage');
@@ -312,7 +333,7 @@
         revealObserver.unobserve(entry.target);
       }
     }, { threshold: .12 });
-    document.querySelectorAll('.foundation > div, .chapter-copy, .steps li, .download-card').forEach(element => revealObserver.observe(element));
+    document.querySelectorAll('.common-questions details, .chapter-copy, .steps li, .download-card').forEach(element => revealObserver.observe(element));
   } else {
     document.querySelectorAll('[data-bot-avatar]').forEach(avatar => avatar.setAttribute('data-avatar-visible', ''));
   }

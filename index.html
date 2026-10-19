@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Persistent AI teammates with independent models, memory and tools. Chief delegation, connected apps, DocFoo document evidence, Marimo notebooks and Telegram. For Windows.">
+  <meta name="description" content="Persistent AI teammates with independent models, memory and tools. Chief delegation, connected apps, DocFoo document evidence, Marimo notebooks and Telegram.">
   <meta name="theme-color" content="#dadfdb">
   <meta name="color-scheme" content="light dark">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="PiKins — Reliable teammates for knowledge workers.">
+  <meta property="og:title" content="PiKins | Reliable teammates for knowledge workers.">
   <meta property="og:description" content="Persistent teammates, Chief delegation, document evidence and live Python notebooks.">
   <meta property="og:url" content="https://abhikuriyal-pixel.github.io/PiKins/">
   <meta property="og:image" content="https://abhikuriyal-pixel.github.io/PiKins/assets/screenshots/team-light.png">
   <meta property="og:image:alt" content="Chief brings Ada’s budget checks and Lin’s workshop plan together">
   <meta name="twitter:card" content="summary_large_image">
-  <title>PiKins — Reliable teammates for knowledge workers.</title>
+  <title>PiKins | Reliable teammates for knowledge workers.</title>
   <link rel="icon" href="./assets/brand/icon.svg" type="image/svg+xml">
   <link rel="preload" href="./assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
   <script src="./theme-init.js"></script>
@@ -76,7 +76,14 @@
     <div class="hero-intro"><h1 id="hero-title" data-headline-state="settled">
       <span class="headline-line headline-line--primary"><span class="headline-word">Reliable</span> <span class="headline-team"><span class="headline-word">teammates</span><span class="headline-underline" aria-hidden="true"><span class="headline-rule"></span><span class="headline-pixels"><i class="headline-pixel headline-pixel--chief"></i><i class="headline-pixel headline-pixel--ada"></i><i class="headline-pixel headline-pixel--lin"></i><i class="headline-pixel headline-pixel--mira"></i></span></span></span></span>
       <span class="headline-line headline-line--secondary"><span class="headline-word">for</span> <span class="headline-word">knowledge</span> <span class="headline-word">workers.</span></span>
-    </h1><div class="hero-summary"><p>Create persistent AI teammates with separate models, memory and workspaces. Chief delegates tasks and combines their reports. Add DocFoo for cited document answers, or Marimo for interactive Python notebooks.</p><div class="hero-actions"><a class="button button--primary" href="#download"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3 5 8-1v7H3Zm10-1 8-1v8h-8ZM3 13h8v7l-8-1Zm10 0h8v8l-8-1Z"/></svg>Download for Windows</a><button class="button button--unavailable" id="hero-linux-download" type="button" disabled><span class="linux-logo" aria-hidden="true"></span><span>Download for Linux<small class="button-status">Coming soon</small></span></button><a class="button" href="https://github.com/abhikuriyal-pixel/PiKins">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div><small class="hero-meta">Windows x64 · Setup &amp; portable · Open source</small></div></div>
+    </h1>
+      <div class="hero-summary">
+        <p>PiKins is an open-source, collaborative multi-agent platform where each agent has its own model, memory, and workspace. Think of it as a team of AI teammates you can ping, personalize, and delegate work to.</p>
+        <p>Specifically designed for knowledge workers in technical fields where information reliability is critical. We achieve this by integrating <a href="https://abhikuriyal-pixel.github.io/docfoo-cli/">DocFoo</a>, a reliable, non-agentic retrieval engine. See <a href="#docfoo" data-feature-link>DocFoo integration</a> for more details.</p>
+        <p>Each agent has long-term memory and can specialize in different tasks. PiKins also offers first-class <a href="https://marimo.io/">marimo</a> notebook integration and visualization, among other features.</p>
+      </div>
+      <div class="hero-downloads"><div class="hero-actions"><a class="button button--primary" href="#download"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3 5 8-1v7H3Zm10-1 8-1v8h-8ZM3 13h8v7l-8-1Zm10 0h8v8l-8-1Z"/></svg>Download for Windows</a><button class="button button--unavailable" id="hero-linux-download" type="button" disabled><span class="linux-logo" aria-hidden="true"></span><span>Download for Linux<small class="button-status">Coming soon</small></span></button><a class="button" href="https://github.com/abhikuriyal-pixel/PiKins">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div><small class="hero-meta">Windows x64 · Setup &amp; portable · Open source</small></div>
+    </div>
     <div class="hero-preview">
       <div class="hero-team">
         <div class="hero-bots" role="img" aria-label="Animal-bot teammates: Chief with a wizard hat; Ada with round glasses and a lab coat; Lin; and Mira with a cap.">
@@ -87,25 +94,85 @@
         </div>
       </div>
       <figure class="gallery-panel" id="hero-capture">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/team-light.png" data-screenshot="team" data-light="./assets/screenshots/team-light.png" data-dark="./assets/screenshots/team-dark.png" data-title="Chief brings Ada’s budget checks and Lin’s workshop plan together" aria-label="Enlarge: Chief brings Ada’s budget checks and Lin’s workshop plan together"><picture>
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/team-light.png" data-screenshot="team" data-light="./assets/screenshots/team-light.png" data-dark="./assets/screenshots/team-dark.png" data-title="Human-led FlashAttention workflow with DocFoo evidence, Ada’s design and Lin’s tested prototype" aria-label="Enlarge: Human-led FlashAttention workflow with DocFoo evidence, Ada’s design and Lin’s tested prototype"><picture>
         <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/team-dark.webp" type="image/webp">
         <source srcset="./assets/screenshots/team-light.webp" type="image/webp">
-        <img src="./assets/screenshots/team-light.png" data-light="./assets/screenshots/team-light.png" data-dark="./assets/screenshots/team-dark.png" alt="Chief brings Ada’s budget checks and Lin’s workshop plan together" width="2160" height="1500" fetchpriority="high" decoding="async">
+        <img src="./assets/screenshots/team-light.png" data-light="./assets/screenshots/team-light.png" data-dark="./assets/screenshots/team-dark.png" alt="Human-led FlashAttention workflow with DocFoo evidence, Ada’s design and Lin’s tested prototype" width="2160" height="1500" fetchpriority="high" decoding="async">
       </picture></a></div>
   <figcaption class="screen-caption"><span>Chief combines the budget check, the open question and the saved workshop plan.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure></div>
-    <dl class="foundation"><div><dt>Independent teammates</dt><dd>Separate conversations, models, instructions, memory and workspaces.</dd></div><div><dt>Chief delegation</dt><dd>Assign tasks to the team and receive their reports in Chief’s conversation.</dd></div><div><dt>Document knowledge</dt><dd>Ask DocFoo across indexed documents, with citations, figures and passage-linked notes.</dd></div><div><dt>Live Python notebooks</dt><dd>Use reactive Marimo notebooks and pair with a teammate in the running kernel.</dd></div></dl>
   </section>
   <div class="feature-explorer wrap" id="features" data-feature-explorer>
-    <aside class="feature-index">
-      <p id="feature-heading">Features</p>
-      <nav aria-label="Feature sections"><a id="feature-tab-docfoo" href="#docfoo"><span>01</span>DocFoo</a><a id="feature-tab-study" href="#study"><span>02</span>Study</a><a id="feature-tab-marimo" href="#marimo"><span>03</span>Marimo</a><a id="feature-tab-work" href="#work"><span>04</span>Teammates</a><a id="feature-tab-connections" href="#connections"><span>05</span>Apps</a><a id="feature-tab-browser" href="#browser"><span>06</span>Browser editing</a><a id="feature-tab-control" href="#control"><span>07</span>Permissions</a><a id="feature-tab-telegram" href="#telegram"><span>08</span>Telegram</a></nav>
-      <div class="feature-picker" hidden><select id="feature-select" aria-labelledby="feature-heading"><option value="docfoo">01 / DocFoo</option><option value="study">02 / Study</option><option value="marimo">03 / Marimo</option><option value="work">04 / Teammates</option><option value="connections">05 / Apps</option><option value="browser">06 / Browser editing</option><option value="control">07 / Permissions</option><option value="telegram">08 / Telegram</option></select></div>
-    </aside>
+    <div class="feature-index">
+      <h2 id="feature-heading">Explore features</h2>
+      <nav aria-label="Feature sections"><a id="feature-tab-work" href="#work"><span>01</span>Teammates</a><a id="feature-tab-docfoo" href="#docfoo"><span>02</span>DocFoo integration</a><a id="feature-tab-browser" href="#browser"><span>03</span>Browser</a><a id="feature-tab-connections" href="#connections"><span>04</span>Apps</a><a id="feature-tab-marimo" href="#marimo"><span>05</span>Marimo integration</a><a id="feature-tab-control" href="#control"><span>06</span>Security</a><a id="feature-tab-study" href="#study"><span>07</span>Study partner</a><a id="feature-tab-telegram" href="#telegram"><span>08</span>Remote integration</a></nav>
+    </div>
     <div class="feature-content">
+<section class="chapter chapter--wide" id="work" aria-labelledby="work-title">
+<div class="chapter-copy"><div><span class="chapter-number eyebrow">01 / Teammates</span><h2 id="work-title">Persistent AI teammates.</h2></div><div class="chapter-summary"><p id="work-description" aria-live="polite" aria-atomic="true">Give each teammate its own model, thinking level, instructions, saved memory and workspace. Ask Chief to delegate research, checks or document creation. The teammates work in their own conversations and report back to Chief. This is a similar feature as Chief of Staff in GrokBot.</p><ul class="detail-list"><li>Independent conversations & models</li><li>Chief delegation & reports</li><li>Reusable skills & scheduled routines</li></ul></div></div>
+<div class="gallery" data-gallery="AI teammates" data-description-target="work-description">
+  <div class="gallery-tabs" role="tablist" aria-label="AI teammates" hidden>
+    <button class="gallery-tab" type="button" id="work-tab-handoff" role="tab" aria-selected="true" aria-controls="work-handoff" tabindex="0">Chief delegation</button>
+    <button class="gallery-tab" type="button" id="work-tab-routines" role="tab" aria-selected="false" aria-controls="work-routines" tabindex="-1">Routines</button>
+    <button class="gallery-tab" type="button" id="work-tab-teammate" role="tab" aria-selected="false" aria-controls="work-teammate" tabindex="-1">Customization &amp; memory</button>
+    <button class="gallery-tab" type="button" id="work-tab-models" role="tab" aria-selected="false" aria-controls="work-models" tabindex="-1">Any model</button>
+    <button class="gallery-tab" type="button" id="work-tab-skills" role="tab" aria-selected="false" aria-controls="work-skills" tabindex="-1">Skills</button>
+    <button class="gallery-tab" type="button" id="work-tab-documents" role="tab" aria-selected="false" aria-controls="work-documents" tabindex="-1">Office</button>
+  </div>
+<figure class="gallery-panel" id="work-handoff" role="tabpanel" aria-labelledby="work-tab-handoff" tabindex="0">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/handoff-light.png" data-screenshot="handoff" data-light="./assets/screenshots/handoff-light.png" data-dark="./assets/screenshots/handoff-dark.png" data-title="Chief turns Lin’s Waterloo research into Ada’s training exercise" aria-label="Enlarge: Chief turns Lin’s Waterloo research into Ada’s training exercise"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/handoff-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/handoff-light.webp" type="image/webp">
+        <img src="./assets/screenshots/handoff-light.png" data-light="./assets/screenshots/handoff-light.png" data-dark="./assets/screenshots/handoff-dark.png" alt="Chief turns Lin’s Waterloo research into Ada’s training exercise" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>Lin researches Waterloo. Ada turns the findings into a fictional training exercise.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="work-routines" role="tabpanel" aria-labelledby="work-tab-routines" tabindex="0" data-description="Schedule recurring tasks and assign a teammate to own each routine. Keep active schedules running or pause them when they are not needed.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/routines-light.png" data-screenshot="routines" data-light="./assets/screenshots/routines-light.png" data-dark="./assets/screenshots/routines-dark.png" data-title="Ada’s paused routine with task instructions, daily schedule and timezone" aria-label="Enlarge: Ada’s paused routine with task instructions, daily schedule and timezone"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/routines-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/routines-light.webp" type="image/webp">
+        <img src="./assets/screenshots/routines-light.png" data-light="./assets/screenshots/routines-light.png" data-dark="./assets/screenshots/routines-dark.png" alt="Ada’s paused routine with task instructions, daily schedule and timezone" width="1920" height="1275" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>A routine’s execution bot, instructions, schedule and timezone.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="work-teammate" role="tabpanel" aria-labelledby="work-tab-teammate" tabindex="0" data-description="Customize each teammate’s role, instructions, preferences and workspace. Each bot in PiKins has a long-term, independent memory system. It can autonomously store and update its memory based on your preferences.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/teammate-light.png" data-screenshot="teammate" data-light="./assets/screenshots/teammate-light.png" data-dark="./assets/screenshots/teammate-dark.png" data-title="Lin’s instructions, saved memory and workspace settings" aria-label="Enlarge: Lin’s instructions, saved memory and workspace settings"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/teammate-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/teammate-light.webp" type="image/webp">
+        <img src="./assets/screenshots/teammate-light.png" data-light="./assets/screenshots/teammate-light.png" data-dark="./assets/screenshots/teammate-dark.png" alt="Lin’s instructions, saved memory and workspace settings" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>A teammate’s role, preferences and workspace.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="work-models" role="tabpanel" aria-labelledby="work-tab-models" tabindex="0" data-description="PiKins uses Pi agent as its backend. This means all models and providers supported by Pi are automatically supported.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/models-light.png" data-screenshot="models" data-light="./assets/screenshots/models-light.png" data-dark="./assets/screenshots/models-dark.png" data-title="Choose a model and thinking level for a teammate" aria-label="Enlarge: Choose a model and thinking level for a teammate"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/models-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/models-light.webp" type="image/webp">
+        <img src="./assets/screenshots/models-light.png" data-light="./assets/screenshots/models-light.png" data-dark="./assets/screenshots/models-dark.png" alt="Choose a model and thinking level for a teammate" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>Model and thinking controls are set per teammate.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="work-skills" role="tabpanel" aria-labelledby="work-tab-skills" tabindex="0" data-description="Give teammates reusable instructions for repeatable tasks, from document work to notebooks. Shared skills help the team follow the same workflow.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/skills-light.png" data-screenshot="skills" data-light="./assets/screenshots/skills-light.png" data-dark="./assets/screenshots/skills-dark.png" data-title="Reusable skills available to the team" aria-label="Enlarge: Reusable skills available to the team"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/skills-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/skills-light.webp" type="image/webp">
+        <img src="./assets/screenshots/skills-light.png" data-light="./assets/screenshots/skills-light.png" data-dark="./assets/screenshots/skills-dark.png" alt="Reusable skills available to the team" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>Shared instructions for document work, notebooks and other repeatable tasks.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="work-documents" role="tabpanel" aria-labelledby="work-tab-documents" tabindex="0" data-description="PiKins provides native support for working with all Office documents, including PDF, XLSX, DOCX and PPTX files. Connect to Google Docs, Slides and Sheets for collaborative work.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/documents-light.png" data-screenshot="documents" data-light="./assets/screenshots/documents-light.png" data-dark="./assets/screenshots/documents-dark.png" data-title="Lin creates downloadable Word and PDF documents from the attached notes" aria-label="Enlarge: Lin creates downloadable Word and PDF documents from the attached notes"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/documents-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/documents-light.webp" type="image/webp">
+        <img src="./assets/screenshots/documents-light.png" data-light="./assets/screenshots/documents-light.png" data-dark="./assets/screenshots/documents-dark.png" alt="Lin creates downloadable Word and PDF documents from the attached notes" width="2160" height="1200" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>The attached workshop notes converted into a Word document and a PDF.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+</div>
+</section>
+
 <section class="chapter chapter--wide" id="docfoo" aria-labelledby="docfoo-title">
-<div class="chapter-copy"><div><span class="chapter-number eyebrow">01 / DocFoo</span><h2 id="docfoo-title">Document questions with citations and figures.</h2></div><div class="chapter-summary"><p>Index papers, books and documents into a knowledge graph. Ask across a collection and get source citations and relevant figures. Open a cited passage in the reader, inspect recorded retrieval, or check where the evidence stops.</p><ul class="detail-list"><li>Cross-document knowledge-graph retrieval</li><li>Source citations & original figures</li><li>Recorded retrieval replay</li></ul></div></div>
-<div class="gallery docfoo-gallery" data-gallery="DocFoo document evidence">
+<div class="chapter-copy"><div><span class="chapter-number eyebrow">02 / DocFoo integration</span><h2 id="docfoo-title">Document questions with citations and figures.</h2></div><div class="chapter-summary"><p id="docfoo-description" aria-live="polite" aria-atomic="true">DocFoo indexes papers, books and documents into a knowledge graph. All answers are grounded in source material. If the evidence doesn’t contain the information you’re looking for, you get a hard refusal instead of hallucinated gibberish. This approach increases the overall reliability of the system while reducing the cost of repeated agentic searches. It also keeps the bots’ context clean. You can open a cited passage in the reader and inspect recorded retrieval. Being able to see the exact sources and the reasons for evidence selection is crucial for sensitive medical applications.</p><ul class="detail-list"><li>Cross-document knowledge-graph retrieval</li><li>Source citations & original figures</li><li>Recorded retrieval replay</li></ul></div></div>
+<div class="gallery docfoo-gallery" data-gallery="DocFoo document evidence" data-description-target="docfoo-description">
   <div class="gallery-tabs" role="tablist" aria-label="DocFoo document evidence" hidden>
     <button class="gallery-tab" type="button" id="research-tab-sources" role="tab" aria-selected="true" aria-controls="research-sources" tabindex="0">Cross-document answer</button>
     <button class="gallery-tab" type="button" id="research-tab-library" role="tab" aria-selected="false" aria-controls="research-library" tabindex="-1">Collection</button>
@@ -121,7 +188,7 @@
       </picture></a></div>
   <figcaption class="screen-caption"><span>One question across Transformer, Longformer, Big Bird and FlashAttention.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
-<figure class="gallery-panel" id="research-library" role="tabpanel" aria-labelledby="research-tab-library" tabindex="0">
+<figure class="gallery-panel" id="research-library" role="tabpanel" aria-labelledby="research-tab-library" tabindex="0" data-description="Organize your papers, books and documents into a collection and index them into a knowledge graph. Collections provide a one-stop place where you can view all the scanned copies of your documents.">
   <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/library-light.png" data-screenshot="library" data-light="./assets/screenshots/library-light.png" data-dark="./assets/screenshots/library-dark.png" data-title="The indexed four-paper collection in DocFoo" aria-label="Enlarge: The indexed four-paper collection in DocFoo"><picture>
         <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/library-dark.webp" type="image/webp">
         <source srcset="./assets/screenshots/library-light.webp" type="image/webp">
@@ -129,7 +196,7 @@
       </picture></a></div>
   <figcaption class="screen-caption"><span>Documents organized into a collection and knowledge graph.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
-<figure class="gallery-panel" id="research-retrieval" role="tabpanel" aria-labelledby="research-tab-retrieval" tabindex="0">
+<figure class="gallery-panel" id="research-retrieval" role="tabpanel" aria-labelledby="research-tab-retrieval" tabindex="0" data-description="Replay the recorded graph retrieval behind an answer. Inspect the entities and evidence selected for your query to understand which sources contributed to the response.">
   <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/retrieval-light.png" data-screenshot="retrieval" data-light="./assets/screenshots/retrieval-light.png" data-dark="./assets/screenshots/retrieval-dark.png" data-title="The saved graph retrieval behind a DocFoo answer" aria-label="Enlarge: The saved graph retrieval behind a DocFoo answer"><picture>
         <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/retrieval-dark.webp" type="image/webp">
         <source srcset="./assets/screenshots/retrieval-light.webp" type="image/webp">
@@ -137,7 +204,7 @@
       </picture></a></div>
   <figcaption class="screen-caption"><span>Inspect the entities and evidence recorded for the query.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
-<figure class="gallery-panel" id="research-boundary" role="tabpanel" aria-labelledby="research-tab-boundary" tabindex="0">
+<figure class="gallery-panel" id="research-boundary" role="tabpanel" aria-labelledby="research-tab-boundary" tabindex="0" data-description="DocFoo identifies when the selected documents do not support an answer. If the requested information is missing from the evidence, it refuses to speculate rather than filling the gap with an unsupported claim.">
   <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/boundary-light.png" data-screenshot="boundary" data-light="./assets/screenshots/boundary-light.png" data-dark="./assets/screenshots/boundary-dark.png" data-title="DocFoo explains that the collection does not establish GPT-4’s implementation" aria-label="Enlarge: DocFoo explains that the collection does not establish GPT-4’s implementation"><picture>
         <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/boundary-dark.webp" type="image/webp">
         <source srcset="./assets/screenshots/boundary-light.webp" type="image/webp">
@@ -148,43 +215,79 @@
 </div>
 </section>
 
-<section class="chapter" id="study" aria-labelledby="study-title">
-<div class="chapter-copy"><span class="chapter-number eyebrow">02 / Study workspace</span><h2 id="study-title">Read, annotate and ask questions.</h2><p>Highlight a passage and ask DocFoo about it without leaving the reader. Save your own notes and images beside the text. Teammates can use the same indexed evidence in their work.</p><ul class="detail-list"><li>Passage-linked questions & replies</li><li>Personal notes with images</li><li>Shared document evidence</li></ul></div>
-<div class="gallery" data-gallery="Reading and annotations">
-  <div class="gallery-tabs" role="tablist" aria-label="Reading and annotations" hidden>
-    <button class="gallery-tab" type="button" id="study-tab-study" role="tab" aria-selected="true" aria-controls="study-study" tabindex="0">Passage questions</button>
-    <button class="gallery-tab" type="button" id="study-tab-note" role="tab" aria-selected="false" aria-controls="study-note" tabindex="-1">Notes & images</button>
-    <button class="gallery-tab" type="button" id="study-tab-evidence" role="tab" aria-selected="false" aria-controls="study-evidence" tabindex="-1">Teammate access</button>
+<section class="chapter chapter--wide" id="browser" aria-labelledby="browser-title">
+<div class="browser-heading"><span class="chapter-number eyebrow">03 / Browser</span><div id="browser-copy"></div></div>
+<div class="gallery browser-gallery" data-gallery="Browser features" data-copy-target="browser-copy">
+  <div class="gallery-tabs" role="tablist" aria-label="Browser features" hidden>
+    <button class="gallery-tab" type="button" id="browser-tab-persistent" role="tab" aria-selected="true" aria-controls="browser-persistent" tabindex="0">Persistent browser</button>
+    <button class="gallery-tab" type="button" id="browser-tab-editing" role="tab" aria-selected="false" aria-controls="browser-editing" tabindex="-1">Editing workflow</button>
   </div>
-<figure class="gallery-panel" id="study-study" role="tabpanel" aria-labelledby="study-tab-study" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/study-light.png" data-screenshot="study" data-light="./assets/screenshots/study-light.png" data-dark="./assets/screenshots/study-dark.png" data-title="A passage-linked question and a cited explanation across the papers" aria-label="Enlarge: A passage-linked question and a cited explanation across the papers"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/study-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/study-light.webp" type="image/webp">
-        <img src="./assets/screenshots/study-light.png" data-light="./assets/screenshots/study-light.png" data-dark="./assets/screenshots/study-dark.png" alt="A passage-linked question and a cited explanation across the papers" width="2160" height="1500" loading="lazy" decoding="async">
+  <div class="gallery-panel" id="browser-persistent" role="tabpanel" aria-labelledby="browser-tab-persistent" tabindex="0">
+    <div class="chapter-copy" id="browser-persistent-copy" data-gallery-copy><h2 id="browser-title">Persistent browser.</h2><p>Each teammate in PiKins gets a separate browser instance to work with. Teammates can autonomously navigate webpages, interact with them and fetch information according to a set routine. Browser access is tightly controlled to protect sensitive information and login details. You can also pause or block access to specific webpages. Teammates can also open non-HTML files, such as images, PDFs and animations, directly in the browser, where you can send comments and feedback on specific parts of files instead of relying on vague prompts. We find that this approach provides a superior collaborative experience.</p></div>
+    <figure>
+      <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/persistent-browser-light.png" data-screenshot="persistent-browser" data-light="./assets/screenshots/persistent-browser-light.png" data-dark="./assets/screenshots/persistent-browser-dark.png" data-title="Ada searches Google Maps for museums near the British Museum in London" aria-label="Enlarge: Ada searches Google Maps for museums near the British Museum in London"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/persistent-browser-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/persistent-browser-light.webp" type="image/webp">
+        <img src="./assets/screenshots/persistent-browser-light.png" data-light="./assets/screenshots/persistent-browser-light.png" data-dark="./assets/screenshots/persistent-browser-dark.png" alt="Ada searches Google Maps for museums near the British Museum in London" width="2160" height="1500" loading="lazy" decoding="async">
       </picture></a></div>
-  <figcaption class="screen-caption"><span>A study question beside its source passage.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+      <figcaption class="screen-caption"><span>Ada’s browser shows public Google Maps search results for museums in London.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+    </figure>
+  </div>
+  <div class="gallery-panel" id="browser-editing" role="tabpanel" aria-labelledby="browser-tab-editing" tabindex="0">
+    <div class="chapter-copy" id="browser-editing-copy" data-gallery-copy><h2 id="browser-editing-title">Convenient DOM-based editing workflow</h2><p>Select an element in the preview, write what you want changed, and send the comments to a teammate. The teammate edits the source file; you review the updated page in the same preview.</p><ul class="detail-list"><li>Element-linked comments</li><li>Local HTML source edits</li><li>Before/after preview</li></ul></div>
+<div class="browser-comparison" data-comparison>
+  <div class="compare-stage"><div class="compare-after"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/browser-after-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/browser-after-light.webp" type="image/webp">
+        <img src="./assets/screenshots/browser-after-light.png" data-light="./assets/screenshots/browser-after-light.png" data-dark="./assets/screenshots/browser-after-dark.png" alt="The workshop page after edits to its title and introduction" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></div><div class="compare-before"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/browser-before-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/browser-before-light.webp" type="image/webp">
+        <img src="./assets/screenshots/browser-before-light.png" data-light="./assets/screenshots/browser-before-light.png" data-dark="./assets/screenshots/browser-before-dark.png" alt="The original workshop page with comments on two selected elements" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></div><div class="compare-handle" aria-hidden="true"><span>↔</span></div><input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare the original page and completed edits" aria-valuetext="50% original page, 50% completed edits" hidden><span class="compare-tag compare-tag--before" aria-hidden="true">Comments</span><span class="compare-tag compare-tag--after" aria-hidden="true">Edits</span></div>
+  <div class="compare-footer"><a class="text-link" href="./assets/screenshots/browser-before-light.png" data-screenshot="browser-before" data-light="./assets/screenshots/browser-before-light.png" data-dark="./assets/screenshots/browser-before-dark.png" data-title="The original page with element-linked comments" aria-label="Enlarge: The original page with element-linked comments">Open before ↗</a><span class="compare-hint">Drag to compare ↔</span><a class="text-link" href="./assets/screenshots/browser-after-light.png" data-screenshot="browser-after" data-light="./assets/screenshots/browser-after-light.png" data-dark="./assets/screenshots/browser-after-dark.png" data-title="The edited page after the comments are applied" aria-label="Enlarge: The edited page after the comments are applied">Open after ↗</a></div>
+</div>
+  </div>
+</div>
+</section>
+
+<section class="chapter" id="connections" aria-labelledby="connections-title">
+<div class="chapter-copy"><span class="chapter-number eyebrow">04 / Apps</span><h2 id="connections-title">Integrate 1,500+ apps through Composio.</h2><p id="apps-description" aria-live="polite" aria-atomic="true">Connect external apps, then select the accounts and individual tools each teammate can use. By providing app access, teammates can read and interact with the platforms you frequently work with. We have made sure that all destructive actions require your approval first. Almost all major platforms are supported, including Google products, news, office apps and social media platforms such as LinkedIn and X.</p><ul class="detail-list"><li>App catalogue & account connections</li><li>Per-teammate tool selection</li><li>Read/write permissions</li></ul></div>
+<div class="gallery" data-gallery="Connected apps" data-description-target="apps-description">
+  <div class="gallery-tabs" role="tablist" aria-label="Connected apps" hidden>
+    <button class="gallery-tab" type="button" id="apps-tab-apps" role="tab" aria-selected="true" aria-controls="apps-apps" tabindex="0">App catalogue</button>
+    <button class="gallery-tab" type="button" id="apps-tab-app-access" role="tab" aria-selected="false" aria-controls="apps-app-access" tabindex="-1">Tool access</button>
+    <button class="gallery-tab" type="button" id="apps-tab-app-result" role="tab" aria-selected="false" aria-controls="apps-app-result" tabindex="-1">App result</button>
+  </div>
+<figure class="gallery-panel" id="apps-apps" role="tabpanel" aria-labelledby="apps-tab-apps" tabindex="0">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/apps-light.png" data-screenshot="apps" data-light="./assets/screenshots/apps-light.png" data-dark="./assets/screenshots/apps-dark.png" data-title="Composio’s app catalogue in PiKins" aria-label="Enlarge: Composio’s app catalogue in PiKins"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/apps-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/apps-light.webp" type="image/webp">
+        <img src="./assets/screenshots/apps-light.png" data-light="./assets/screenshots/apps-light.png" data-dark="./assets/screenshots/apps-dark.png" alt="Composio’s app catalogue in PiKins" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>Browse apps and connect an account.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
-<figure class="gallery-panel" id="study-note" role="tabpanel" aria-labelledby="study-tab-note" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/note-light.png" data-screenshot="note" data-light="./assets/screenshots/note-light.png" data-dark="./assets/screenshots/note-dark.png" data-title="A personal note and attached diagram beside a highlighted passage" aria-label="Enlarge: A personal note and attached diagram beside a highlighted passage"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/note-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/note-light.webp" type="image/webp">
-        <img src="./assets/screenshots/note-light.png" data-light="./assets/screenshots/note-light.png" data-dark="./assets/screenshots/note-dark.png" alt="A personal note and attached diagram beside a highlighted passage" width="2160" height="1500" loading="lazy" decoding="async">
+<figure class="gallery-panel" id="apps-app-access" role="tabpanel" aria-labelledby="apps-tab-app-access" tabindex="0" data-description="Choose the connected accounts and individual tools each teammate can use. For example, Ada has access to three read-only Hacker News tools. Destructive actions require your approval before they run.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/app-access-light.png" data-screenshot="app-access" data-light="./assets/screenshots/app-access-light.png" data-dark="./assets/screenshots/app-access-dark.png" data-title="Ada’s three read-only Hacker News tools" aria-label="Enlarge: Ada’s three read-only Hacker News tools"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/app-access-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/app-access-light.webp" type="image/webp">
+        <img src="./assets/screenshots/app-access-light.png" data-light="./assets/screenshots/app-access-light.png" data-dark="./assets/screenshots/app-access-dark.png" alt="Ada’s three read-only Hacker News tools" width="2160" height="1500" loading="lazy" decoding="async">
       </picture></a></div>
-  <figcaption class="screen-caption"><span>Personal text and an image saved with the selected passage.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+  <figcaption class="screen-caption"><span>Choose individual tools for a teammate.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
-<figure class="gallery-panel" id="study-evidence" role="tabpanel" aria-labelledby="study-tab-evidence" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/evidence-light.png" data-screenshot="evidence" data-light="./assets/screenshots/evidence-light.png" data-dark="./assets/screenshots/evidence-dark.png" data-title="Lin uses DocFoo’s citations and original figure in an explanation" aria-label="Enlarge: Lin uses DocFoo’s citations and original figure in an explanation"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/evidence-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/evidence-light.webp" type="image/webp">
-        <img src="./assets/screenshots/evidence-light.png" data-light="./assets/screenshots/evidence-light.png" data-dark="./assets/screenshots/evidence-dark.png" alt="Lin uses DocFoo’s citations and original figure in an explanation" width="2160" height="1500" loading="lazy" decoding="async">
+<figure class="gallery-panel" id="apps-app-result" role="tabpanel" aria-labelledby="apps-tab-app-result" tabindex="0" data-description="Teammates can use their granted app tools to fetch information and bring the results back into the conversation. Here, Ada creates a Hacker News reading list with source links.">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/app-result-light.png" data-screenshot="app-result" data-light="./assets/screenshots/app-result-light.png" data-dark="./assets/screenshots/app-result-dark.png" data-title="Ada’s Hacker News reading list with source links" aria-label="Enlarge: Ada’s Hacker News reading list with source links"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/app-result-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/app-result-light.webp" type="image/webp">
+        <img src="./assets/screenshots/app-result-light.png" data-light="./assets/screenshots/app-result-light.png" data-dark="./assets/screenshots/app-result-dark.png" alt="Ada’s Hacker News reading list with source links" width="2160" height="1500" loading="lazy" decoding="async">
       </picture></a></div>
-  <figcaption class="screen-caption"><span>A teammate uses the same document evidence, including citations and figures.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+  <figcaption class="screen-caption"><span>Public Hacker News results returned through the granted tools.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
 </div>
 </section>
 
 <section class="chapter chapter--wide" id="marimo" aria-labelledby="marimo-title">
-<div class="chapter-copy"><div><span class="chapter-number eyebrow">03 / Marimo</span><h2 id="marimo-title">Interactive Python notebooks.</h2></div><div class="chapter-summary"><p>Build local reactive notebooks with controls, plots and Python cells. Change a parameter to update the results. With your approval, a teammate can inspect variables, edit cells and run checks in the same live Python kernel.</p><ul class="detail-list"><li>Reactive controls & plots</li><li>Live notebook pairing</li><li>Python export</li></ul></div></div>
+<div class="chapter-copy"><div><span class="chapter-number eyebrow">05 / Marimo integration</span><h2 id="marimo-title">Inbuilt marimo notebook integration.</h2></div><div class="chapter-summary"><p>Marimo notebooks are excellent tools for knowledge workers. Unlike Jupyter notebooks, <a href="https://marimo.io/">marimo</a> notebooks are reactive and stored as plain Python files, making them highly portable. PiKins offers first-class integration with marimo, allowing you to visualize, edit, and collaborate on notebooks with your teammates directly within PiKins.</p><ul class="detail-list"><li>Reactive controls & plots</li><li>Live notebook pairing</li><li>Python export</li></ul></div></div>
 <div class="gallery" data-gallery="Marimo notebooks and live pairing">
   <div class="gallery-tabs" role="tablist" aria-label="Marimo notebooks and live pairing" hidden>
     <button class="gallery-tab" type="button" id="lab-tab-notebook" role="tab" aria-selected="true" aria-controls="lab-notebook" tabindex="0">Damping 0.06</button>
@@ -218,133 +321,19 @@
 </div>
 </section>
 
-<section class="chapter chapter--wide" id="work" aria-labelledby="work-title">
-<div class="chapter-copy"><div><span class="chapter-number eyebrow">04 / Teammates</span><h2 id="work-title">Persistent AI teammates.</h2></div><div class="chapter-summary"><p>Give each teammate its own model, thinking level, instructions, saved memory and workspace. Ask Chief to delegate research, checks or document creation. The teammates work in their own conversations and report back to Chief.</p><ul class="detail-list"><li>Independent conversations & models</li><li>Chief delegation & reports</li><li>Reusable skills & scheduled routines</li></ul></div></div>
-<div class="gallery" data-gallery="AI teammates">
-  <div class="gallery-tabs" role="tablist" aria-label="AI teammates" hidden>
-    <button class="gallery-tab" type="button" id="work-tab-handoff" role="tab" aria-selected="true" aria-controls="work-handoff" tabindex="0">Chief delegation</button>
-    <button class="gallery-tab" type="button" id="work-tab-documents" role="tab" aria-selected="false" aria-controls="work-documents" tabindex="-1">Word & PDF</button>
-    <button class="gallery-tab" type="button" id="work-tab-teammate" role="tab" aria-selected="false" aria-controls="work-teammate" tabindex="-1">Role & memory</button>
-    <button class="gallery-tab" type="button" id="work-tab-models" role="tab" aria-selected="false" aria-controls="work-models" tabindex="-1">Models</button>
-    <button class="gallery-tab" type="button" id="work-tab-skills" role="tab" aria-selected="false" aria-controls="work-skills" tabindex="-1">Skills</button>
-    <button class="gallery-tab" type="button" id="work-tab-routines" role="tab" aria-selected="false" aria-controls="work-routines" tabindex="-1">Routines</button>
-  </div>
-<figure class="gallery-panel" id="work-handoff" role="tabpanel" aria-labelledby="work-tab-handoff" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/handoff-light.png" data-screenshot="handoff" data-light="./assets/screenshots/handoff-light.png" data-dark="./assets/screenshots/handoff-dark.png" data-title="Chief delegates a workshop task to Ada and Lin and receives their reports" aria-label="Enlarge: Chief delegates a workshop task to Ada and Lin and receives their reports"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/handoff-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/handoff-light.webp" type="image/webp">
-        <img src="./assets/screenshots/handoff-light.png" data-light="./assets/screenshots/handoff-light.png" data-dark="./assets/screenshots/handoff-dark.png" alt="Chief delegates a workshop task to Ada and Lin and receives their reports" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Chief’s task handoffs and Lin’s pending file-write request.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="work-documents" role="tabpanel" aria-labelledby="work-tab-documents" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/documents-light.png" data-screenshot="documents" data-light="./assets/screenshots/documents-light.png" data-dark="./assets/screenshots/documents-dark.png" data-title="Lin creates downloadable Word and PDF documents from the attached notes" aria-label="Enlarge: Lin creates downloadable Word and PDF documents from the attached notes"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/documents-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/documents-light.webp" type="image/webp">
-        <img src="./assets/screenshots/documents-light.png" data-light="./assets/screenshots/documents-light.png" data-dark="./assets/screenshots/documents-dark.png" alt="Lin creates downloadable Word and PDF documents from the attached notes" width="2160" height="1200" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>The attached workshop notes converted into a Word document and a PDF.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="work-teammate" role="tabpanel" aria-labelledby="work-tab-teammate" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/teammate-light.png" data-screenshot="teammate" data-light="./assets/screenshots/teammate-light.png" data-dark="./assets/screenshots/teammate-dark.png" data-title="Lin’s instructions, saved memory and workspace settings" aria-label="Enlarge: Lin’s instructions, saved memory and workspace settings"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/teammate-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/teammate-light.webp" type="image/webp">
-        <img src="./assets/screenshots/teammate-light.png" data-light="./assets/screenshots/teammate-light.png" data-dark="./assets/screenshots/teammate-dark.png" alt="Lin’s instructions, saved memory and workspace settings" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>A teammate’s role, preferences and workspace.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="work-models" role="tabpanel" aria-labelledby="work-tab-models" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/models-light.png" data-screenshot="models" data-light="./assets/screenshots/models-light.png" data-dark="./assets/screenshots/models-dark.png" data-title="Choose a model and thinking level for a teammate" aria-label="Enlarge: Choose a model and thinking level for a teammate"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/models-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/models-light.webp" type="image/webp">
-        <img src="./assets/screenshots/models-light.png" data-light="./assets/screenshots/models-light.png" data-dark="./assets/screenshots/models-dark.png" alt="Choose a model and thinking level for a teammate" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Model and thinking controls are set per teammate.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="work-skills" role="tabpanel" aria-labelledby="work-tab-skills" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/skills-light.png" data-screenshot="skills" data-light="./assets/screenshots/skills-light.png" data-dark="./assets/screenshots/skills-dark.png" data-title="Reusable skills available to the team" aria-label="Enlarge: Reusable skills available to the team"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/skills-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/skills-light.webp" type="image/webp">
-        <img src="./assets/screenshots/skills-light.png" data-light="./assets/screenshots/skills-light.png" data-dark="./assets/screenshots/skills-dark.png" alt="Reusable skills available to the team" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Shared instructions for document work, notebooks and other repeatable tasks.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="work-routines" role="tabpanel" aria-labelledby="work-tab-routines" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/routines-light.png" data-screenshot="routines" data-light="./assets/screenshots/routines-light.png" data-dark="./assets/screenshots/routines-dark.png" data-title="Recurring tasks with teammate ownership and enabled or paused schedules" aria-label="Enlarge: Recurring tasks with teammate ownership and enabled or paused schedules"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/routines-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/routines-light.webp" type="image/webp">
-        <img src="./assets/screenshots/routines-light.png" data-light="./assets/screenshots/routines-light.png" data-dark="./assets/screenshots/routines-dark.png" alt="Recurring tasks with teammate ownership and enabled or paused schedules" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Scheduled tasks with an owner and a pause control.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-</div>
-</section>
-
-<section class="chapter" id="connections" aria-labelledby="connections-title">
-<div class="chapter-copy"><span class="chapter-number eyebrow">05 / Connected apps</span><h2 id="connections-title">1,500+ apps through Composio.</h2><p>Connect external apps, then select the accounts and individual tools each teammate can use. Give one teammate read access and another a different set of tools. Review write actions separately.</p><ul class="detail-list"><li>App catalogue & account connections</li><li>Per-teammate tool selection</li><li>Read/write permissions</li></ul></div>
-<div class="gallery" data-gallery="Connected apps">
-  <div class="gallery-tabs" role="tablist" aria-label="Connected apps" hidden>
-    <button class="gallery-tab" type="button" id="apps-tab-apps" role="tab" aria-selected="true" aria-controls="apps-apps" tabindex="0">App catalogue</button>
-    <button class="gallery-tab" type="button" id="apps-tab-app-access" role="tab" aria-selected="false" aria-controls="apps-app-access" tabindex="-1">Tool access</button>
-    <button class="gallery-tab" type="button" id="apps-tab-app-result" role="tab" aria-selected="false" aria-controls="apps-app-result" tabindex="-1">App result</button>
-  </div>
-<figure class="gallery-panel" id="apps-apps" role="tabpanel" aria-labelledby="apps-tab-apps" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/apps-light.png" data-screenshot="apps" data-light="./assets/screenshots/apps-light.png" data-dark="./assets/screenshots/apps-dark.png" data-title="Composio’s app catalogue in PiKins" aria-label="Enlarge: Composio’s app catalogue in PiKins"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/apps-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/apps-light.webp" type="image/webp">
-        <img src="./assets/screenshots/apps-light.png" data-light="./assets/screenshots/apps-light.png" data-dark="./assets/screenshots/apps-dark.png" alt="Composio’s app catalogue in PiKins" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Browse apps and connect an account.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="apps-app-access" role="tabpanel" aria-labelledby="apps-tab-app-access" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/app-access-light.png" data-screenshot="app-access" data-light="./assets/screenshots/app-access-light.png" data-dark="./assets/screenshots/app-access-dark.png" data-title="Ada’s three read-only Hacker News tools" aria-label="Enlarge: Ada’s three read-only Hacker News tools"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/app-access-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/app-access-light.webp" type="image/webp">
-        <img src="./assets/screenshots/app-access-light.png" data-light="./assets/screenshots/app-access-light.png" data-dark="./assets/screenshots/app-access-dark.png" alt="Ada’s three read-only Hacker News tools" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Choose individual tools for a teammate.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-<figure class="gallery-panel" id="apps-app-result" role="tabpanel" aria-labelledby="apps-tab-app-result" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/app-result-light.png" data-screenshot="app-result" data-light="./assets/screenshots/app-result-light.png" data-dark="./assets/screenshots/app-result-dark.png" data-title="Ada’s Hacker News reading list with source links" aria-label="Enlarge: Ada’s Hacker News reading list with source links"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/app-result-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/app-result-light.webp" type="image/webp">
-        <img src="./assets/screenshots/app-result-light.png" data-light="./assets/screenshots/app-result-light.png" data-dark="./assets/screenshots/app-result-dark.png" alt="Ada’s Hacker News reading list with source links" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></a></div>
-  <figcaption class="screen-caption"><span>Public Hacker News results returned through the granted tools.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
-</figure>
-</div>
-</section>
-
-<section class="chapter chapter--wide" id="browser" aria-labelledby="browser-title">
-<div class="chapter-copy"><div><span class="chapter-number eyebrow">06 / Browser editing</span><h2 id="browser-title">Edit local HTML with comments.</h2></div><div class="chapter-summary"><p>Select an element in the preview, write what you want changed, and send the comments to a teammate. The teammate edits the source file; you review the updated page in the same preview.</p><ul class="detail-list"><li>Element-linked comments</li><li>Local HTML source edits</li><li>Before/after preview</li></ul></div></div>
-<div class="browser-comparison" data-comparison>
-  <div class="compare-stage"><div class="compare-after"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/browser-after-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/browser-after-light.webp" type="image/webp">
-        <img src="./assets/screenshots/browser-after-light.png" data-light="./assets/screenshots/browser-after-light.png" data-dark="./assets/screenshots/browser-after-dark.png" alt="The workshop page after edits to its title and introduction" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></div><div class="compare-before"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/browser-before-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/browser-before-light.webp" type="image/webp">
-        <img src="./assets/screenshots/browser-before-light.png" data-light="./assets/screenshots/browser-before-light.png" data-dark="./assets/screenshots/browser-before-dark.png" alt="The original workshop page with comments on two selected elements" width="2160" height="1500" loading="lazy" decoding="async">
-      </picture></div><div class="compare-handle" aria-hidden="true"><span>↔</span></div><input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare the original page and completed edits" aria-valuetext="50% original page, 50% completed edits" hidden><span class="compare-tag compare-tag--before" aria-hidden="true">Comments</span><span class="compare-tag compare-tag--after" aria-hidden="true">Edits</span></div>
-  <div class="compare-footer"><a class="text-link" href="./assets/screenshots/browser-before-light.png" data-screenshot="browser-before" data-light="./assets/screenshots/browser-before-light.png" data-dark="./assets/screenshots/browser-before-dark.png" data-title="The original page with element-linked comments" aria-label="Enlarge: The original page with element-linked comments">Open before ↗</a><span class="compare-hint">Drag to compare ↔</span><a class="text-link" href="./assets/screenshots/browser-after-light.png" data-screenshot="browser-after" data-light="./assets/screenshots/browser-after-light.png" data-dark="./assets/screenshots/browser-after-dark.png" data-title="The edited page after the comments are applied" aria-label="Enlarge: The edited page after the comments are applied">Open after ↗</a></div>
-</div>
-</section>
-
 <section class="chapter" id="control" aria-labelledby="control-title">
-<div class="chapter-copy"><span class="chapter-number eyebrow">07 / Permissions</span><h2 id="control-title">Tool permissions and approvals.</h2><p>Set the tools each teammate can use. Review file writes, code execution and notebook access. Teammates can ask clarification questions in the conversation before they act.</p><ul class="detail-list"><li>Per-teammate tool access</li><li>Action-specific approvals</li><li>Clarifying questions</li></ul></div>
+<div class="chapter-copy"><span class="chapter-number eyebrow">06 / Security</span><h2 id="control-title">Tool permissions and approvals.</h2><p>To increase security, PiKins scopes file reads and writes to the workspace you have selected for a teammate. Access outside that workspace requires separate approval. File writes, edits and destructive operations require your permission. Teammates can ask clarification questions in the conversation before they act.</p><ul class="detail-list"><li>Per-teammate tool access</li><li>Action-specific approvals</li><li>Clarifying questions</li></ul></div>
 <div class="gallery" data-gallery="Questions and approvals">
   <div class="gallery-tabs" role="tablist" aria-label="Questions and approvals" hidden>
     <button class="gallery-tab" type="button" id="control-tab-questions" role="tab" aria-selected="true" aria-controls="control-questions" tabindex="0">Clarifying questions</button>
     <button class="gallery-tab" type="button" id="control-tab-document-approval" role="tab" aria-selected="false" aria-controls="control-document-approval" tabindex="-1">Code execution</button>
     <button class="gallery-tab" type="button" id="control-tab-notebook-approval" role="tab" aria-selected="false" aria-controls="control-notebook-approval" tabindex="-1">Notebook write</button>
-    <button class="gallery-tab" type="button" id="control-tab-python-approval" role="tab" aria-selected="false" aria-controls="control-python-approval" tabindex="-1">Live Python</button>
   </div>
 <figure class="gallery-panel" id="control-questions" role="tabpanel" aria-labelledby="control-tab-questions" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/questions-light.png" data-screenshot="questions" data-light="./assets/screenshots/questions-light.png" data-dark="./assets/screenshots/questions-dark.png" data-title="Chief asks questions before creating a routine" aria-label="Enlarge: Chief asks questions before creating a routine"><picture>
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/questions-light.png" data-screenshot="questions" data-light="./assets/screenshots/questions-light.png" data-dark="./assets/screenshots/questions-dark.png" data-title="Chief’s active clarification panel with Goal, Time and Confirm tabs" aria-label="Enlarge: Chief’s active clarification panel with Goal, Time and Confirm tabs"><picture>
         <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/questions-dark.webp" type="image/webp">
         <source srcset="./assets/screenshots/questions-light.webp" type="image/webp">
-        <img src="./assets/screenshots/questions-light.png" data-light="./assets/screenshots/questions-light.png" data-dark="./assets/screenshots/questions-dark.png" alt="Chief asks questions before creating a routine" width="2160" height="1500" loading="lazy" decoding="async">
+        <img src="./assets/screenshots/questions-light.png" data-light="./assets/screenshots/questions-light.png" data-dark="./assets/screenshots/questions-dark.png" alt="Chief’s active clarification panel with Goal, Time and Confirm tabs" width="1920" height="1275" loading="lazy" decoding="async">
       </picture></a></div>
   <figcaption class="screen-caption"><span>Questions are answered in the conversation before work continues.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
@@ -364,18 +353,45 @@
       </picture></a></div>
   <figcaption class="screen-caption"><span>A notebook file write waiting for approval.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
-<figure class="gallery-panel" id="control-python-approval" role="tabpanel" aria-labelledby="control-tab-python-approval" tabindex="0">
-  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/python-approval-light.png" data-screenshot="python-approval" data-light="./assets/screenshots/python-approval-light.png" data-dark="./assets/screenshots/python-approval-dark.png" data-title="Notebook-scoped permission to inspect a running Python kernel" aria-label="Enlarge: Notebook-scoped permission to inspect a running Python kernel"><picture>
-        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/python-approval-dark.webp" type="image/webp">
-        <source srcset="./assets/screenshots/python-approval-light.webp" type="image/webp">
-        <img src="./assets/screenshots/python-approval-light.png" data-light="./assets/screenshots/python-approval-light.png" data-dark="./assets/screenshots/python-approval-dark.png" alt="Notebook-scoped permission to inspect a running Python kernel" width="2160" height="1500" loading="lazy" decoding="async">
+</div>
+</section>
+
+<section class="chapter" id="study" aria-labelledby="study-title">
+<div class="chapter-copy"><span class="chapter-number eyebrow">07 / Study partner</span><h2 id="study-title">Read, annotate and ask questions.</h2><p>Using an unrestricted LLM as a study partner is a recipe for disaster, as LLMs tend to hallucinate and provide generic answers if you don't provide them with enough context. DocFoo is designed to prevent this. It grounds answers in your indexed books and documents and strictly refuses to answer if the evidence is insufficient. All comments are addressed by DocFoo rather than a general teammate, making PiKins a much more reliable study partner. DocFoo can also retrieve complex cross-patterns and implicit relationships between various concepts and domains. You can also add personal notes to each document you are studying.</p><ul class="detail-list"><li>Passage-linked questions & replies</li><li>Personal notes with images</li><li>Shared document evidence</li></ul></div>
+<div class="gallery" data-gallery="Reading and annotations">
+  <div class="gallery-tabs" role="tablist" aria-label="Reading and annotations" hidden>
+    <button class="gallery-tab" type="button" id="study-tab-study" role="tab" aria-selected="true" aria-controls="study-study" tabindex="0">Passage questions</button>
+    <button class="gallery-tab" type="button" id="study-tab-note" role="tab" aria-selected="false" aria-controls="study-note" tabindex="-1">Notes & images</button>
+    <button class="gallery-tab" type="button" id="study-tab-evidence" role="tab" aria-selected="false" aria-controls="study-evidence" tabindex="-1">Teammate access</button>
+  </div>
+<figure class="gallery-panel" id="study-study" role="tabpanel" aria-labelledby="study-tab-study" tabindex="0">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/study-light.png" data-screenshot="study" data-light="./assets/screenshots/study-light.png" data-dark="./assets/screenshots/study-dark.png" data-title="A passage-linked question and a cited explanation across the papers" aria-label="Enlarge: A passage-linked question and a cited explanation across the papers"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/study-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/study-light.webp" type="image/webp">
+        <img src="./assets/screenshots/study-light.png" data-light="./assets/screenshots/study-light.png" data-dark="./assets/screenshots/study-dark.png" alt="A passage-linked question and a cited explanation across the papers" width="2160" height="1500" loading="lazy" decoding="async">
       </picture></a></div>
-  <figcaption class="screen-caption"><span>Grant live execution access for a specific teammate and running notebook.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+  <figcaption class="screen-caption"><span>A study question beside its source passage.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="study-note" role="tabpanel" aria-labelledby="study-tab-note" tabindex="0">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/note-light.png" data-screenshot="note" data-light="./assets/screenshots/note-light.png" data-dark="./assets/screenshots/note-dark.png" data-title="A personal note and attached diagram beside a highlighted passage" aria-label="Enlarge: A personal note and attached diagram beside a highlighted passage"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/note-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/note-light.webp" type="image/webp">
+        <img src="./assets/screenshots/note-light.png" data-light="./assets/screenshots/note-light.png" data-dark="./assets/screenshots/note-dark.png" alt="A personal note and attached diagram beside a highlighted passage" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>Personal text and an image saved with the selected passage.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
+</figure>
+<figure class="gallery-panel" id="study-evidence" role="tabpanel" aria-labelledby="study-tab-evidence" tabindex="0">
+  <div class="screenshot-frame"><a class="screenshot-link" href="./assets/screenshots/evidence-light.png" data-screenshot="evidence" data-light="./assets/screenshots/evidence-light.png" data-dark="./assets/screenshots/evidence-dark.png" data-title="Lin uses DocFoo’s citations and original figure in an explanation" aria-label="Enlarge: Lin uses DocFoo’s citations and original figure in an explanation"><picture>
+        <source data-dark-source media="(prefers-color-scheme: dark)" srcset="./assets/screenshots/evidence-dark.webp" type="image/webp">
+        <source srcset="./assets/screenshots/evidence-light.webp" type="image/webp">
+        <img src="./assets/screenshots/evidence-light.png" data-light="./assets/screenshots/evidence-light.png" data-dark="./assets/screenshots/evidence-dark.png" alt="Lin uses DocFoo’s citations and original figure in an explanation" width="2160" height="1500" loading="lazy" decoding="async">
+      </picture></a></div>
+  <figcaption class="screen-caption"><span>A teammate uses the same document evidence, including citations and figures.</span><span class="caption-action" aria-hidden="true">Enlarge <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></figcaption>
 </figure>
 </div>
 </section>
 
-    <section class="telegram chapter" id="telegram" aria-labelledby="telegram-title"><div class="chapter-copy telegram-copy"><span class="chapter-number eyebrow">08 / Telegram</span><p class="telegram-brand"><img src="./assets/telegram/logo.svg" alt="" width="28" height="28">Telegram</p><h2 id="telegram-title">Telegram conversation sync.</h2><p>Continue the same desktop conversation in Telegram. Switch teammates with <code>/bot</code>, send files and receive generated documents as attachments.</p><ul class="detail-list"><li>Existing conversation & context</li><li>Teammate switching</li><li>File attachments</li></ul><p class="telegram-setup">Pair your own Telegram bot. PiKins must stay running on a PC that’s online and awake.</p></div><figure class="telegram-figure" id="telegram-phone" aria-labelledby="telegram-example-caption">
+    <section class="telegram chapter" id="telegram" aria-labelledby="telegram-title"><div class="chapter-copy telegram-copy"><span class="chapter-number eyebrow">08 / Remote integration</span><p class="telegram-brand"><img src="./assets/telegram/logo.svg" alt="" width="28" height="28">Telegram</p><h2 id="telegram-title">Telegram conversation sync.</h2><p>Continue the same desktop conversation in Telegram. Switch teammates with <code>/bot</code>, send files and receive generated documents as attachments.</p><ul class="detail-list"><li>Existing conversation & context</li><li>Teammate switching</li><li>File attachments</li></ul><p class="telegram-setup">Pair your own Telegram bot. PiKins must stay running on a PC that’s online and awake.</p></div><figure class="telegram-figure" id="telegram-phone" aria-labelledby="telegram-example-caption">
         <div class="telegram-device" data-illustration="telegram">
           <span class="device-key device-key--mute" aria-hidden="true"></span><span class="device-key device-key--volume" aria-hidden="true"></span><span class="device-key device-key--power" aria-hidden="true"></span>
           <div class="phone-screen">
@@ -395,7 +411,7 @@
                 <li class="phone-message phone-message--chief"><span class="phone-sender">Chief</span><p>Here’s Lin’s draft.</p><a class="phone-file" href="./assets/examples/workshop-brief.pdf" download="PiKins-workshop-brief.pdf" aria-label="Download the sample workshop brief, PDF"><span class="phone-file-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v13m-5-5 5 5 5-5M6 21h12"/></svg></span><span><strong>workshop-brief.pdf</strong><small>PDF · 3.2 KB</small></span></a><span class="phone-time">17:32</span></li>
               </ol>
             </div>
-            <div class="phone-compose" aria-hidden="true"><svg class="phone-paperclip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="m8 13 7-7a3 3 0 0 1 4 4L9 20a5 5 0 0 1-7-7L13 2a3 3 0 0 1 4 4L6 17a1.5 1.5 0 0 1-2-2l9-9"/></svg><span class="phone-compose-field">Message<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h4l2-3h6l2 3h4v13H3Z"/><circle cx="12" cy="13" r="4"/></svg></span><svg class="phone-microphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M6 10v2a6 6 0 0 0 12 0v-2m-6 8v4m-3 0h6"/></svg></div>
+            <div class="phone-compose" aria-hidden="true"><svg class="phone-paperclip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg><span class="phone-compose-field">Message<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h4l2-3h6l2 3h4v13H3Z"/><circle cx="12" cy="13" r="4"/></svg></span><svg class="phone-microphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M6 10v2a6 6 0 0 0 12 0v-2m-6 8v4m-3 0h6"/></svg></div>
             <span class="phone-home" aria-hidden="true"></span>
           </div>
         </div>
@@ -405,19 +421,44 @@
   </div>
 
   <div class="wrap">
+    <section class="common-questions" id="questions" aria-labelledby="questions-heading">
+      <div class="section-heading"><h2 id="questions-heading">Q&amp;A</h2></div>
+      <div class="faq-list">
+        <details>
+          <summary>How is PiKins different from GrokBot or OpenAI Dots?</summary>
+          <p>The UX for PiKins is inspired by <a href="https://x.ai/bot">GrokBot</a>. However, PiKins is aimed specifically at meeting the needs of knowledge workers, such as students, researchers and medical practitioners. We are continuously working to make PiKins more and more reliable for these communities. Additionally, PiKins is completely free and open-source under the MIT license. You can connect any model as the brain for your teammates. More niche features will be added in the future. If you have any suggestions, please contact us at <a href="mailto:docfoo.work@gmail.com">docfoo.work@gmail.com</a>.</p>
+        </details>
+        <details>
+          <summary>Does PiKins support remote connections and mobile support?</summary>
+          <p>Yes, through <a href="#telegram" data-feature-link>Telegram</a>. Once you pair your account, you can chat with your teammates from your phone, switch between them, send files and receive documents back. It uses the same conversations as the desktop app. Your computer still needs to stay awake and online, with PiKins running; leaving it in the system tray is fine. There isn’t a separate PiKins mobile app, and Telegram bot chats are not end-to-end encrypted.</p>
+        </details>
+        <details>
+          <summary>Is PiKins fully free &amp; open source? Can we use local models with it?</summary>
+          <p>Yes. PiKins is free and <a href="./LICENSE">MIT-licensed</a>. It comes with <strong>Cosmic PiKins</strong>, a free, built-in endpoint selected by default, so you can start right away without adding an API key. You can also connect your own cloud provider or use a local model through a running llama.cpp server. Each teammate can use a different model, so you can pick what works best for the task.</p>
+        </details>
+        <details>
+          <summary>Does PiKins support VPS hosting or persistent cloud computers?</summary>
+          <p>PiKins is a desktop app, not a hosted service. We don’t provide a supported headless server setup yet. If you want your teammates available while you’re away, you can leave PiKins running on an always-on computer and reach them through Telegram. You’d still need to keep that computer running and connected; PiKins doesn’t provide or manage a cloud computer for you.</p>
+        </details>
+        <details>
+          <summary>Why does Windows SmartScreen warn me when I install the app?</summary>
+          <p>The current Windows installer isn’t code-signed, so Windows can’t verify us as its publisher. SmartScreen may show “Windows protected your PC” for an app it doesn’t recognize. Use the <a href="#download">official download links</a>. We provide checksums for verification. For the “unrecognized app” warning, you can choose <strong>More info</strong>, then <strong>Run anyway</strong>, if Windows offers those options and you trust the download. Don’t turn off Windows security.</p>
+        </details>
+      </div>
+    </section>
     <section class="workflow" id="workflow" aria-labelledby="workflow-title">
       <div class="onboarding-grid">
         <div class="setup-guide">
-          <div class="section-heading"><h2 id="workflow-title">Getting started.</h2><p>Install PiKins, connect a provider, and assign a task.</p></div>
+          <div class="section-heading"><h2 id="workflow-title">Getting started.</h2><p>Install PiKins, choose a model, and assign a task.</p></div>
           <ol class="steps" aria-label="Setup steps">
-            <li><span class="step-number">01</span><h3>Install PiKins.</h3><p>Use the Windows installer, or extract the portable ZIP and run PiKins.exe.</p></li>
-            <li><span class="step-number">02</span><h3>Connect a provider.</h3><p>Add your supported model-provider connection in Settings. Choose models and thinking levels for your teammates.</p></li>
+            <li><span class="step-number">01</span><h3>Install PiKins.</h3><p>Use the desktop installer, or extract the portable ZIP and run PiKins.exe.</p></li>
+            <li><span class="step-number">02</span><h3>Connect a provider.</h3><p><strong>Cosmic PiKins</strong>, our free, built-in endpoint, is selected by default, so you can start right away. You can also add your own provider in Settings and choose models and thinking levels for your teammates. If you prefer to go local, the llama.cpp provider is built in. Just launch a llama.cpp server on the default port (8080) with your local model loaded. PiKins will automatically detect it. No setup needed.</p></li>
             <li><span class="step-number">03</span><h3>Assign a task.</h3><p>Ask Chief to delegate work, or talk to a teammate directly. Select a workspace and grant the tools the task needs.</p></li>
           </ol>
           <p class="setup-note">DocFoo, Marimo and external app connections are optional.</p>
         </div>
         <section class="download" id="download" aria-labelledby="download-title">
-          <div class="download-copy"><h2 id="download-title">Download PiKins.</h2><p>Windows x64. A model-provider connection is required.</p></div>
+          <div class="download-copy"><h2 id="download-title">Download PiKins.</h2><p>Windows x64. Built-in free endpoint included.</p></div>
           <div class="download-choices">
             <article class="download-card"><div class="download-card-heading"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3 5 8-1v7H3Zm10-1 8-1v8h-8ZM3 13h8v7l-8-1Zm10 0h8v8l-8-1Z"/></svg><h3>Windows setup</h3></div><p>Install PiKins on your PC.</p><a class="button button--primary" data-download="setup" href="https://github.com/abhikuriyal-pixel/PiKins/releases/download/v0.1.1/PiKins-0.1.1-win-x64-setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>Download setup</a><small>v0.1.1 · x64 · EXE</small></article>
             <article class="download-card download-card--soon" aria-labelledby="linux-setup-title"><div class="download-card-heading"><span class="linux-logo" aria-hidden="true"></span><h3 id="linux-setup-title">Linux setup</h3></div><p>Install PiKins on Linux.</p><button class="button button--unavailable" id="linux-coming-soon" type="button" aria-describedby="linux-release-status" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>Download AppImage</button><small id="linux-release-status">Coming soon · AppImage</small></article>

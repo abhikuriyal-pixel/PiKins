@@ -3,7 +3,12 @@
   "sourceManifest": "../../captures-review/manifest.json",
   "models": {
     "teammatesAndDocfoo": "openai-codex/gpt-6-luna",
-    "marimoBuildAndLivePairing": "openai-codex/gpt-6.1-sol"
+    "marimoBuildAndLivePairing": "openai-codex/gpt-6.1-sol",
+    "technicalHeroAndDocfoo": "openai-codex/gpt-6.1-sol",
+    "technicalHeroThinking": "low",
+    "clarificationRetake": "openai-codex/gpt-6.1-sol",
+    "clarificationThinking": "low",
+    "delegationDemo": "openai-codex/gpt-6-luna"
   },
   "previewMethod": "Lossless WebP at original dimensions; no recoloring or retouching.",
   "scenes": [
@@ -108,8 +113,8 @@
       "sourceScene": "15-marimo-notebook-write-approval"
     },
     {
-      "name": "python-approval",
-      "sourceScene": "16-marimo-live-pairing-approval"
+      "name": "persistent-browser",
+      "sourceScene": "26-persistent-browser-google-maps"
     }
   ],
   "captures": [
@@ -119,12 +124,12 @@
       "file": "team-light.png",
       "sourceFile": "../../captures-review/01-chief-team-result-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-17T07:15:21.181Z",
+      "capturedAt": "2026-10-19T13:14:31.939Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "d332310c5db77dcf2c83124106bddd3dbff9f813d49028452b5bc8df83baa556",
+      "sha256": "a86bab055c5873c76fe7ebee20558b178a1b5aa377416719e7353d40442cdd3f",
       "preview": "team-light.webp",
-      "previewSha256": "ecbad2d54eca03c97ee2d9ea882c97ec563573dbace46eec91f75129db5b4904"
+      "previewSha256": "683d08f82d9bb788fe2c370aae111657039c5941b7c182d3d5dc731cd82efec7"
     },
     {
       "scene": "team",
@@ -132,12 +137,12 @@
       "file": "team-dark.png",
       "sourceFile": "../../captures-review/01-chief-team-result-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-17T07:15:23.743Z",
+      "capturedAt": "2026-10-19T13:14:35.525Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "4995707653b6d0134b89e28efbc516e56f5a9dec89c095f32cc53133260691cd",
+      "sha256": "b02ef449707716c27ef4d6037ffb68975c9c4c3a7ee508bfdac331d9eacb9732",
       "preview": "team-dark.webp",
-      "previewSha256": "e5ce29ad2f73b705b40140cf4ffeca47d9d8bcc435ebd2873555dfc9658b157b"
+      "previewSha256": "e60965d3d7e4760e2e03a38c7a96224f282e3fbc3fe96c8bac59a8349908fbad"
     },
     {
       "scene": "documents",
@@ -145,12 +150,12 @@
       "file": "documents-light.png",
       "sourceFile": "../../captures-review/03-attachments-skill-and-document-outputs-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:18:29.420Z",
+      "capturedAt": "2026-10-19T05:55:33.764Z",
       "width": 2160,
       "height": 1200,
-      "sha256": "c1a6e36c332c559619306b5aef199e8504bf29ff17ba008bcd65a530e6f8504e",
+      "sha256": "ce9929cfee912a7d13627d5150f55d589cce7c680ad028598e8a54c7e6f9e1e6",
       "preview": "documents-light.webp",
-      "previewSha256": "a3c0009129a93d7ea50f0bef0bc313c7917f670520873c3265f78b6a0a5a51eb"
+      "previewSha256": "6edeca3c44241f4a21b41956fbbf3517176cc2cf52d8f95e42376d653e6728bc"
     },
     {
       "scene": "documents",
@@ -158,12 +163,12 @@
       "file": "documents-dark.png",
       "sourceFile": "../../captures-review/03-attachments-skill-and-document-outputs-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:18:30.819Z",
+      "capturedAt": "2026-10-19T05:55:36.149Z",
       "width": 2160,
       "height": 1200,
-      "sha256": "85fea14860b5bcf7814689ea36fc3d2be730f488a64857c3b6ef8b3d29d234c5",
+      "sha256": "e02f03d787725fb5ad03d20beceb2a43ca93291e5b6e8d88ee37892f057e185c",
       "preview": "documents-dark.webp",
-      "previewSha256": "f6951bb05744c56c430f2e23f9644981b82e461a64210059e8f4ac4d346ae913"
+      "previewSha256": "6a2def63e263f4e0f74fb351b96994592187166d5a795aa1951343abdaf7fd6d"
     },
     {
       "scene": "apps",
@@ -275,12 +280,12 @@
       "file": "browser-after-light.png",
       "sourceFile": "../../captures-review/06-browser-comments-after-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:27:05.356Z",
+      "capturedAt": "2026-10-19T02:32:53.171Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "069dff0c2682dbda646c4287b0c92597d3365532b38154c23ea5f146626a9cea",
+      "sha256": "b37be93fea75aa2b080f90f9e10e9d39a71254e915046d7eedb80c0f4d318072",
       "preview": "browser-after-light.webp",
-      "previewSha256": "280167337184325c9adb89eef91b242f4e587eb6ed1c153f6717cc96ae937a49"
+      "previewSha256": "f321b62f5680b849adaeed9a8d598d7c3a57f0041e9facfab95faf78259c224c"
     },
     {
       "scene": "browser-after",
@@ -288,12 +293,12 @@
       "file": "browser-after-dark.png",
       "sourceFile": "../../captures-review/06-browser-comments-after-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:27:06.896Z",
+      "capturedAt": "2026-10-19T02:32:53.409Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "3f783b9b18466ac83ccf3b3b7a2934e62b105073f194a004e732b615411353e8",
+      "sha256": "a4d0476ee0b1632d097d8321ddbfc2a11535a3fca412a97684bc1aeee9fb03ca",
       "preview": "browser-after-dark.webp",
-      "previewSha256": "4783d5ce7b7ee3ffd6ed13745df0cad66706c9115043867035d513f9a7131167"
+      "previewSha256": "b07add2134c6274502ec5eac03b9b048b6e8a6a1fce95af67719408b7edcbce8"
     },
     {
       "scene": "notebook",
@@ -353,12 +358,12 @@
       "file": "pairing-light.png",
       "sourceFile": "../../captures-review/25-marimo-live-pairing-result-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:39:41.457Z",
+      "capturedAt": "2026-10-19T05:27:58.466Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "0d04547e9e7932c661a20e30c613c6942197dc35357b2aef20bc77c53f3afcfb",
+      "sha256": "bcb1c8adac5f5055bf00464aea1b4f0b264af621d757e64c73bd01e200744fb4",
       "preview": "pairing-light.webp",
-      "previewSha256": "089a16b55a9fed62a11af92f1ae4fc7f55080670c9288a0b440206c159605060"
+      "previewSha256": "f442a34240cd07aafbdb09e7be57ed649f2dcdcbf2b4adf2d37c6289044054ac"
     },
     {
       "scene": "pairing",
@@ -366,12 +371,12 @@
       "file": "pairing-dark.png",
       "sourceFile": "../../captures-review/25-marimo-live-pairing-result-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:39:43.185Z",
+      "capturedAt": "2026-10-19T05:28:00.766Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "9037d7c2cea51fc87e6c877b4832cc44548a5617cfc9c98900458539fa099813",
+      "sha256": "9b79f09c090d67203be21e15419712ff7c84548979e6a4deff5a7b3ae5ce3ed1",
       "preview": "pairing-dark.webp",
-      "previewSha256": "0de18805e2739532c69fc31e1b9e7b179c5b540b798cad2aaf715e95e8a41a2f"
+      "previewSha256": "bd24638723ec3c59e6ddbed488268853b4564ace985e0d40dee49cf7f419be9d"
     },
     {
       "scene": "library",
@@ -483,12 +488,12 @@
       "file": "evidence-light.png",
       "sourceFile": "../../captures-review/12-teammate-reuses-docfoo-evidence-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:18:32.669Z",
+      "capturedAt": "2026-10-19T05:28:03.964Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "9487ee2bad04ab781a6e9bddd82e0951d9fbce985a217c3adab2293cb3ae2265",
+      "sha256": "74b2dcb13260e93e09ba9180a7706a97771087c709317ee568ad44469d0e0d61",
       "preview": "evidence-light.webp",
-      "previewSha256": "7608991ed772f76a887aaa90a99e10f3956a4fb22326434a98c34601c4cc417f"
+      "previewSha256": "d56fffc5353c1aed1508d302561d552be9e17936066066240592fed6626bb018"
     },
     {
       "scene": "evidence",
@@ -496,12 +501,12 @@
       "file": "evidence-dark.png",
       "sourceFile": "../../captures-review/12-teammate-reuses-docfoo-evidence-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:18:34.200Z",
+      "capturedAt": "2026-10-19T05:28:06.483Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "30633c74221f2540932c16af352d5bc3b5b6b37db912a0967b16559719268c44",
+      "sha256": "64694b0f5c918fd5317ac0a967b4fe477274f579160fc90a2ddf4643b40d585a",
       "preview": "evidence-dark.webp",
-      "previewSha256": "89556b8037c54f9f4f2048b3df26e18887bcf44307752c20696f206c8c27404e"
+      "previewSha256": "fe4d4217cd3d3bc247eb2faee0f267db42efb38f39156db464d6afbc0bf86839"
     },
     {
       "scene": "retrieval",
@@ -561,12 +566,12 @@
       "file": "routines-light.png",
       "sourceFile": "../../captures-review/13-team-routines-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:18:46.434Z",
-      "width": 2160,
-      "height": 1500,
-      "sha256": "9a7ffb27574cdf18580e2f5420ab4f1abc341b5a51682f9b55ebd2b0b18fc42c",
+      "capturedAt": "2026-10-19T13:55:40.706Z",
+      "width": 1920,
+      "height": 1275,
+      "sha256": "94c3437a9904ad41c86634999b6f21c4b469dacb3fb27f3d44054222e19f0983",
       "preview": "routines-light.webp",
-      "previewSha256": "39d21fdfb78862dbb032fe0f221bfc73ec5f741de8d0e500ad1953ad80dfec9c"
+      "previewSha256": "31808755e364601340e8b7905778cd709bf94b22422ec887b3c420783031d1b1"
     },
     {
       "scene": "routines",
@@ -574,12 +579,12 @@
       "file": "routines-dark.png",
       "sourceFile": "../../captures-review/13-team-routines-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:18:47.971Z",
-      "width": 2160,
-      "height": 1500,
-      "sha256": "285930e7fbd58f9cfefda108983b3c6bd05ae61d015c695eb47d7fa697036239",
+      "capturedAt": "2026-10-19T13:55:42.739Z",
+      "width": 1920,
+      "height": 1275,
+      "sha256": "f415122294882eec3a45a7534010930f23aa2423bca9b500b3dc94cf10fc6baa",
       "preview": "routines-dark.webp",
-      "previewSha256": "700487c57a26acf415d18404525b14c269364f2271afe57c66814053b4c99b2d"
+      "previewSha256": "8393dad656a2a28c797f0502838c28408a32fc9805d045ec6e230283e2371ee7"
     },
     {
       "scene": "teammate",
@@ -639,12 +644,12 @@
       "file": "questions-light.png",
       "sourceFile": "../../captures-review/20-clarifying-questions-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:25:58.401Z",
-      "width": 2160,
-      "height": 1500,
-      "sha256": "6c1a2f0d1441d940b122649806a26ac0ba6d27f83cc582374da669de9e09ee7b",
+      "capturedAt": "2026-10-19T13:52:43.153Z",
+      "width": 1920,
+      "height": 1275,
+      "sha256": "7d4b92ac66fcd4448af68c27918ec9d512a4541cfc378b15eb79232cc7d0815e",
       "preview": "questions-light.webp",
-      "previewSha256": "141bd48693e4ef0c42b1a8d20d1a4922d3c0eec1760052004c6b7692e12a0049"
+      "previewSha256": "ddd8cd84f53dafaa6080cce79601fa04b767cf592051855df5342c5b292a9669"
     },
     {
       "scene": "questions",
@@ -652,12 +657,12 @@
       "file": "questions-dark.png",
       "sourceFile": "../../captures-review/20-clarifying-questions-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:25:59.990Z",
-      "width": 2160,
-      "height": 1500,
-      "sha256": "f97e717012b2b19442c08e5201c554df307b6c760b50d0f5744855f27b3e9e29",
+      "capturedAt": "2026-10-19T13:52:44.634Z",
+      "width": 1920,
+      "height": 1275,
+      "sha256": "5b8d3889ee62f4bc76fd83131fb616b07abb2adb1876eb20b05439b7188a7c47",
       "preview": "questions-dark.webp",
-      "previewSha256": "0c8c606f09e85fb315929c10ec9f5fe9f804c87257aecbf67015523bd1d7068c"
+      "previewSha256": "b869f81dd3d67bca0270c22cbe920539ee6d2509da193a1cf89c9354c62dbee1"
     },
     {
       "scene": "models",
@@ -691,12 +696,12 @@
       "file": "handoff-light.png",
       "sourceFile": "../../captures-review/02-team-delegation-and-approval-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:22:35.507Z",
+      "capturedAt": "2026-10-19T15:59:07.753Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "5d80810f11517790bd9616f145b668ebfa7a7b8f11a5142d9b08fbf7c525af8f",
+      "sha256": "05504042ee0b0efa9f26c6efe74e898e91a7f1a501d104a360483c3163375974",
       "preview": "handoff-light.webp",
-      "previewSha256": "cf0b764724aa0c3d3a0afc940c06b964d69768d393d91a52f0bd73478fd150b2"
+      "previewSha256": "7638830f3f9525fbe1b20daa3ad68d4ae58aa2f1227cdbac23d58d574f0ed50d"
     },
     {
       "scene": "handoff",
@@ -704,12 +709,12 @@
       "file": "handoff-dark.png",
       "sourceFile": "../../captures-review/02-team-delegation-and-approval-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:22:37.040Z",
+      "capturedAt": "2026-10-19T15:59:10.783Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "4233a12692085dcce56ff46de684c02d0bb2d971bacadcd827b0e56c523542b5",
+      "sha256": "92049163ed100231271c327f92b2c29014029e72cfae05994babfa174aca2aef",
       "preview": "handoff-dark.webp",
-      "previewSha256": "b3c2e0ecd00b3ea6af8cc906a22366c540ac65d0e1012206662818179bef452b"
+      "previewSha256": "c8b8e982895babf76fb584f93cf05797c3ce99bec137d3409ca72d9ed527897a"
     },
     {
       "scene": "document-approval",
@@ -764,30 +769,30 @@
       "previewSha256": "431d9e76eed03072712db16dea8b5f7791bf938308b8c42dc316583534ed4d7d"
     },
     {
-      "scene": "python-approval",
-      "sourceScene": "16-marimo-live-pairing-approval",
-      "file": "python-approval-light.png",
-      "sourceFile": "../../captures-review/16-marimo-live-pairing-approval-light.png",
+      "scene": "persistent-browser",
+      "sourceScene": "26-persistent-browser-google-maps",
+      "file": "persistent-browser-light.png",
+      "sourceFile": "../../captures-review/26-persistent-browser-google-maps-light.png",
       "theme": "light",
-      "capturedAt": "2026-10-16T10:36:18.060Z",
+      "capturedAt": "2026-10-19T02:55:14.851Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "efc5da2dec63b19be14397932c5c1f1311dcb146843651263b8ab2e8c3b69603",
-      "preview": "python-approval-light.webp",
-      "previewSha256": "8e5e30988729720526573a3e607fa84f50f55bd9c8717975b8d32ddaa6cca377"
+      "sha256": "e81a96239c7db0867c134123eb086b422582c9904f1cc2901df52dea3f2f1440",
+      "preview": "persistent-browser-light.webp",
+      "previewSha256": "cc78cfcf4bca45ac6948f926080e8f1bf29ecf7fe1ceb0b4850c8d55f7f7893b"
     },
     {
-      "scene": "python-approval",
-      "sourceScene": "16-marimo-live-pairing-approval",
-      "file": "python-approval-dark.png",
-      "sourceFile": "../../captures-review/16-marimo-live-pairing-approval-dark.png",
+      "scene": "persistent-browser",
+      "sourceScene": "26-persistent-browser-google-maps",
+      "file": "persistent-browser-dark.png",
+      "sourceFile": "../../captures-review/26-persistent-browser-google-maps-dark.png",
       "theme": "dark",
-      "capturedAt": "2026-10-16T10:36:19.946Z",
+      "capturedAt": "2026-10-19T02:55:16.277Z",
       "width": 2160,
       "height": 1500,
-      "sha256": "c477803e6931e2eb162cac06f952f8302d82263a5c40190b92155bf18349097b",
-      "preview": "python-approval-dark.webp",
-      "previewSha256": "ad1ecc42c97a51e6fd492dcd54870653ec05f80142e5aa8028aa6d967c3d2a70"
+      "sha256": "a08501d431766203478c399f7079059ca2ccb2fe32f4d4666c5343083b917dbc",
+      "preview": "persistent-browser-dark.webp",
+      "previewSha256": "2940e4a2e6081e1f076845f04c418c1dfbd16c8e99c14ea68ae6c31b17336ee7"
     }
   ]
 }
