@@ -2,7 +2,7 @@
 
 **Your AI teammates, together on your desktop.**
 
-PiKins is a Windows desktop assistant for working with persistent AI teammates, coordinating tasks, browsing, and asking questions about your documents.
+PiKins is a desktop assistant for working with persistent AI teammates, coordinating tasks, browsing, and asking questions about your documents.
 
 [Download](https://github.com/abhikuriyal-pixel/PiKins/releases) · [Report an issue](https://github.com/abhikuriyal-pixel/PiKins/issues) · [Support](SUPPORT.md)
 
@@ -23,14 +23,14 @@ PiKins supports **Windows x64**.
 
 | Download | Use |
 | --- | --- |
-| `PiKins-0.1.1-win-x64-setup.exe` | Install PiKins |
-| `PiKins-0.1.1-win-x64-portable.zip` | Extract and run `PiKins.exe` |
+| `PiKins-0.1.2-win-x64-setup.exe` | Install PiKins |
+| `PiKins-0.1.2-win-x64-portable.zip` | Extract and run `PiKins.exe` |
 | `SHA256SUMS.txt` | Check download integrity |
 
 Download the files from [Releases](https://github.com/abhikuriyal-pixel/PiKins/releases). To check a download in PowerShell:
 
 ```powershell
-Get-FileHash .\PiKins-0.1.1-win-x64-portable.zip -Algorithm SHA256
+Get-FileHash .\PiKins-0.1.2-win-x64-portable.zip -Algorithm SHA256
 ```
 
 Compare the result with `SHA256SUMS.txt`. The application is unsigned, so Windows may display a SmartScreen warning.
